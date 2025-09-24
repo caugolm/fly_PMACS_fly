@@ -3,6 +3,14 @@ import json
 import pandas as pd
 import sys
 
+'''
+USAGE:
+python tabulate_dcm2bids_helper.py /path/to/tmp_dcm2bids /path/to/output.csv
+Once your dicoms are converted to BIDS using dcm2bids, this script will create a table (csv) of all the json files in the tmp_dcm2bids directory.
+The table will have one row per json file, with columns for each key in the json files.
+This is useful for creating your heuristic file for dcm2bids.
+'''
+
 parent_directory = sys.argv[1] #path to tmp_dcm2bids directory. Typically ${bids_base}/tmp_dcm2bids
 
 # Initialize a list to store rows for the table

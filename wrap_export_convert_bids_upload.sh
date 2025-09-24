@@ -2,8 +2,8 @@
 
 if [[ $# -lt 2 ]] ; then
 	echo "USAGE ./wrap_export_convert_bids_upload.sh <sub,ses.csv> <config_file> <opt: exclude quarantine>"
-	echo "See setting_up_your_config_file.txt for details on how to set up your config_file"
-	echo "This script will loop through a txt of INDDID,session to run the conveniently named export_convert_bids_upload.sh"
+	echo "See setting_up_your_config_file.md for details on how to set up your config_file"
+	echo "This script will loop through a csv of INDDID,session to run the conveniently named export_convert_bids_upload.sh"
 	echo "export_convert_bids_upload.sh exports dicoms from flywheel, convert dicoms to nifti, BIDSify and then upload the BIDS files back to flywheel"
 	echo "opt: exclude quarantine: default 0: export all dicoms. if 1, then ignores dicoms with the 'Quarantine' file tag. Useful for when choosing one of a repeated or useless acquisition"
 	echo "" 

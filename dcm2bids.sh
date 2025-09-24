@@ -28,6 +28,7 @@ dcm2bids_conda_path=$4
 dicom_base=$5
 bids_base=$6
 heuristic=$7
+calculate_add_motion=$8
 
 dicom_dir=${dicom_base}/${subj}/${sess}
 uncompressed_dicom_dir=${dicom_base}/${subj}/${sess}/uncompressed/
@@ -76,9 +77,19 @@ dcm2bids -d ${uncompressed_dicom_dir} -c ${heuristic} -o ${bids_base} -p ${subj}
 # Add IntendedFor field to DWI JSON files
 python ${scripts_dir}add_intendedfor_dwi.py ${subj} ${sess} ${bids_base}
 
-cam_cmd="bash ${scripts_dir}/calculate_add_motion.sh ${subj} ${sess} ${scripts_dir} ${dicom_base} ${bids_base}"
-echo $cam_cmd
-$cam_cmd
+if [[ $calculate_add_motion == "" || $calculate_add_motion == True ]] ; then 
+    echo "Calculating and adding vnav motion to jsons, if vnavs are present"
+    calculate_add_motion=1
+    cam_cmd="bash ${scripts_dir}/calculate_add_motion.sh ${subj} ${sess} ${scripts_dir} ${dicom_base} ${bids_base}"
+    echo $cam_cmd
+    $cam_cmd
+elif [[ $calculate_add_motion == False ]] ; then 
+    echo "Skipping calculation and addition of vnav motion to jsons"
+    calculate_add_motion=0
+else 
+    echo "calculate_add_motion must be 0 or 1...exiting"
+    exit 1
+fi
 
 rm -rf ${nifti_dir}
 
