@@ -1,0 +1,11 @@
+prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+exec_prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+libdir=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib
+includedir=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

@@ -1,0 +1,11 @@
+prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

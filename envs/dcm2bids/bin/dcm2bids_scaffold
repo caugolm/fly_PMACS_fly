@@ -1,0 +1,10 @@
+#!/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/bin/python3.12
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from dcm2bids.cli.dcm2bids_scaffold import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

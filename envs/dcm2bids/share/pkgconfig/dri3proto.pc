@@ -1,0 +1,7 @@
+prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+includedir=${prefix}/include
+ 
+Name: DRI3Proto
+Description: DRI3 extension headers
+Version: 1.4
+Cflags: -I${includedir}

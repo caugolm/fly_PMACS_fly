@@ -1,0 +1,7 @@
+prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+includedir=${prefix}/include
+
+Name: RenderProto
+Description: Render extension headers
+Version: 0.11.1
+Cflags: -I${includedir}

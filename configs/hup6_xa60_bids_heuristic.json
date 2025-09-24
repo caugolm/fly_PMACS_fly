@@ -1,0 +1,544 @@
+{
+    "descriptions": [
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-MPRAGE1mm",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*MPRAGE*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-800um",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*T1_3D_0.8x0.8x0.8*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-800umxND",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND",
+                    "NORM"
+                ],
+                "SeriesDescription": "*T1_3D_0.8x0.8x0.8*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-ABCD800um",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "OTHER",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D",
+                    "MEAN"
+                ],
+                "SeriesDescription": "ABCD_T1w_MPR_vNav RMS"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-ABCD800umxND",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NONE"],
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "OTHER",
+                    "ND",
+                    "NORM",
+                    "MEAN"
+                ],
+                "SeriesDescription": "ABCD_T1w_MPR_vNav RMS"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-ABCD800umxND",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NONE"],
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "OTHER",
+                    "ND",
+                    "MEAN"
+                ],
+                "SeriesDescription": "ABCD_T1w_MPR_vNav RMS"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-ABCD800umxND",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NONE", "MAGNITUDE"],
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "OTHER",
+                    "ND",
+                    "MEAN"
+                ],
+                "SeriesDescription": "ABCD_T1w_MPR_vNav RMS"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "custom_entities": "acq-ABCD800umxND",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NONE"],
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "OTHER",
+                    "ND",
+                    "NORM",
+                    "MEAN"
+                ],
+                "SeriesDescription": "ABCD_T1w_MPR_vNav_ND RMS"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "custom_entities": "acq-400um",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NONE"],
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*T2_2D_0.4x0.4x1.6*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "custom_entities": "acq-400umxND",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND",
+                    "NORM"
+                ],
+                "SeriesDescription": "*T2_2D_0.4x0.4x1.6*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "custom_entities": "acq-sag1mm_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*t2_spc_sag_1mm*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "custom_entities": "acq-sag1mm_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*t2_spc_sag_1mm*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "FLAIR",
+            "custom_entities": "acq-accSag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*FLAIR*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-1_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "1"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-1_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "1"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-2_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "2"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-2_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "2"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-3_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "3"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-3_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "3"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-4_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "4"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-4_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "4"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-5_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "5"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA3_echo-5_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*",
+                "EchoNumber": "5"
+            }
+        },
+        {
+            "datatype": "swi",
+            "suffix": "GRE",
+            "custom_entities": "acq-GRAPPA3_echo-1",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType" : ["ORIGINAL", "PRIMARY", "SWI", "NONE"],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*SWI*",
+                "EchoNumber": "1"
+            }
+        },
+        {
+            "datatype": "swi",
+            "suffix": "GRE",
+            "custom_entities": "acq-GRAPPA3_echo-2",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType" : ["ORIGINAL", "PRIMARY", "SWI", "NONE"],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*SWI*",
+                "EchoNumber": "2"
+            }
+        },
+        {
+            "datatype": "swi",
+            "suffix": "GRE",
+            "custom_entities": "acq-GRAPPA3_echo-3",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType" : ["ORIGINAL", "PRIMARY", "SWI", "NONE"],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*SWI*",
+                "EchoNumber": "3"
+            }
+        },
+        {
+            "datatype": "swi",
+            "suffix": "GRE",
+            "custom_entities": "acq-GRAPPA3_echo-4",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType" : ["ORIGINAL", "PRIMARY", "SWI", "NONE"],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*SWI*",
+                "EchoNumber": "4"
+            }
+        },
+        {
+            "datatype": "swi",
+            "suffix": "GRE",
+            "custom_entities": "acq-GRAPPA3_echo-5",
+            "criteria": {
+                "Modality": "MR",
+                "ImageType" : ["ORIGINAL", "PRIMARY", "SWI", "NONE"],
+                "SeriesDescription": "*CLARiTI_AdvMRI_QSM_GRAPPA3*SWI*",
+                "EchoNumber": "5"
+            }
+        },
+        {
+            "datatype": "dwi",
+            "suffix": "dwi",
+            "custom_entities": "acq-117dir_dir-AP",
+            "criteria": {
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "DIFFUSION",
+                    "NONE",
+                    "MB",
+                    "ND"
+                ],
+                "SeriesDescription": "MultiShell_117dir",
+                "PhaseEncodingDirection": "j-"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-PA",
+            "criteria": {
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "DIFFUSION",
+                    "NONE",
+                    "MB",
+                    "ND"
+                ],
+                "SeriesDescription": "MultiShell_6dir_PA",
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 23
+        },
+        {
+            "datatype": "asl",
+            "suffix": "asl",
+            "custom_entities": "acq-HASL7",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND"
+                ],
+                "SeriesDescription": "CLARiTI_AdvMRI_HASL7_ASL"
+            }
+        },
+        {
+            "datatype": "asl",
+            "suffix": "m0scan",
+            "custom_entities": "acq-LLASL",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND"
+                ],
+                "SeriesDescription": "CLARiTI_AdvMRI_HASL7_M0"
+            }
+        },
+        {
+            "datatype": "asl",
+            "suffix": "asl",
+            "custom_entities": "acq-LLASL",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND"
+                ],
+                "SeriesDescription": "CLARiTI_AdvMRI_LLASL_ASL"
+            }
+        },
+        {
+            "datatype": "asl",
+            "suffix": "m0scan",
+            "custom_entities": "acq-HASL7",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND"
+                ],
+                "SeriesDescription": "CLARiTI_AdvMRI_LLASL_M0"
+            }
+        }
+    ]
+}

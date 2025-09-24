@@ -1,0 +1,5 @@
+#!/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/bin/python3.12
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))

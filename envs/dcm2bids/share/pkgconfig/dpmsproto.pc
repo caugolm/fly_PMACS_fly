@@ -1,0 +1,7 @@
+prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+includedir=${prefix}/include
+
+Name: DPMSProto
+Description: DPMS extension headers
+Version: 1.2
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XTEST
+Description: XCB XTEST Extension
+Version: 1.17.0
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-xtest
+Cflags: -I${includedir}

@@ -1,0 +1,7 @@
+prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+includedir=${prefix}/include
+
+Name: VideoProto
+Description: Video extension headers
+Version: 2.3.3
+Cflags: -I${includedir}
