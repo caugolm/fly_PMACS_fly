@@ -5,7 +5,7 @@ It does the following:
 2. Converts these DICOMs to NIFTI using [dcm2niix](https://github.com/rordenlab/dcm2niix)
 3. Curates these NIFTIs to BIDS format using [dcm2bids](https://unfmontreal.github.io/Dcm2Bids/3.2.0/)
 4. Exports these BIDS curates NIFTIs, along with all its metadata, back to the Flywheel project folder for completeness. 
-# ----------------------------------------------------------
+# ---------------------------------------------------------
 
 
 
