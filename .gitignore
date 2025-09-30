@@ -1,0 +1,12 @@
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+*.tar.gz
+*.tar
+*dicom
+*.dcm
+./*.json
+./*.txt
+*.csv
+__pycache__/
