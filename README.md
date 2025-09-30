@@ -21,7 +21,7 @@ It does the following:
 
 
     34566,tp03
-2. The absolute path to a *directory* config file which defines where everything else lives, plus some additional options. See setting_up_your_config_file.md for more information on how to set this up. 
+2. The absolute path to a *directory* config file which defines where everything else lives, plus some additional options. See  configs/README.md for more information on how to set this up. 
 3. You will also need a *heuristic* config file to pass to dcm2bids to get your BIDS curation going. See https://unfmontreal.github.io/Dcm2Bids/3.2.0/how-to/create-config-file/ for more information. The script tabulate_dcm2bids_helper.py can help you create this heuristic, if needed. 
 
 ### To run the entire pipeline once you have these components:
