@@ -1,4 +1,4 @@
-![fly PMACS fly!!!](envs/braineagle_3.png)
+![fly PMACS fly](envs/braineagle_3.png)
 
 ## What is this repository for?
 If you use Flywheel to reap dicoms from the scanner, but want to use the Penn PMACS LPC to do pretty much everything else, this repository will (hopefully) be useful.
