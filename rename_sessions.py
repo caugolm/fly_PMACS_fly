@@ -10,8 +10,13 @@ import datetime
 import flywheel
 import pytz
 import os.path
+import sys
 
 fw=flywheel.Client('')
+
+group = sys.argv[1]
+project = sys.argv[2]
+lists_path = sys.argv[3]
 
 # make column names
 # initialize list for storing new subject and session names
@@ -24,8 +29,8 @@ tonow = datetime.datetime.now()
 strnow = tonow.strftime("%H%M%S")
 todayStr = '{}{}{}'.format(today.year,f'{today.month:02}',f'{today.day:02}')
 
-#def find_new_sessions(group = "pennftdcenter", projectLabel = "HUP6", matchString = "BRAIN RESEARCH"):
-def find_new_sessions(matchString,group = "pennftdcenter", projectLabel = "HUP6_XA60"):
+
+def find_new_sessions(matchString, group, projectLabel, lists_path):
 	project = fw.lookup("{}/{}".format(group, projectLabel))
 	sessions = project.sessions.iter_find("label=~{}".format(matchString))
 	for s in sessions:
@@ -46,8 +51,8 @@ def find_new_sessions(matchString,group = "pennftdcenter", projectLabel = "HUP6_
 	# convert list to data frame for ease of saving and stuff
 	updateDf = pd.DataFrame(updateList, columns = cols)
 	# create file name
-	fname = "/project/ftdc_volumetric/hup6_xa60/lists/to_curate_" + todayStr + "x" + strnow + ".csv"
+	fname = lists_path + "/to_curate_" + todayStr + "x" + strnow + ".csv"
 	updateDf.to_csv(fname, header=False, index=False)
 	print(fname)
 
-find_new_sessions('BRAIN')
+find_new_sessions('BRAIN', group, project, lists_path)
