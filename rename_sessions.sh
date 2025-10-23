@@ -16,4 +16,4 @@ config=$1
 
 source $config
 
-python ./rename_sessions.py $flywheel_group $flywheel_project $lists_path
+python ${scripts_dir}/rename_sessions.py $flywheel_group $flywheel_project $lists_path
