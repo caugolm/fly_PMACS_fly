@@ -1,15 +1,14 @@
 {
   "build": "pyhc872135_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
-    "python >=3.9,<3.14.0a0",
     "setuptools",
-    "wheel"
+    "wheel",
+    "python >=3.9,<3.14.0a0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/pip-25.2-pyhc872135_0",
-  "features": "",
   "files": [
     "lib/python3.12/site-packages/pip-25.2.dist-info/INSTALLER",
     "lib/python3.12/site-packages/pip-25.2.dist-info/METADATA",
@@ -873,9 +872,7 @@
     "bin/pip3"
   ],
   "fn": "pip-25.2-pyhc872135_0.conda",
-  "legacy_bz2_md5": "267874a93ca971f0c70bde0bc44756f7",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/pip-25.2-pyhc872135_0",
     "type": 1
@@ -5698,12 +5695,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "pip==25.2=pyhc872135_0",
   "sha256": "1ee3659b14ca2fc75ef679c711cc19bea31fa811d041808c2da06b70adee9222",
   "size": 1265880,
   "subdir": "noarch",
-  "timestamp": 1756710051467,
-  "track_features": "",
+  "timestamp": 1756710051000,
   "url": "https://repo.anaconda.com/pkgs/main/noarch/pip-25.2-pyhc872135_0.conda",
   "version": "25.2"
 }

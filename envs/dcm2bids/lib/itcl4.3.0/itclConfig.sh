@@ -26,8 +26,8 @@ ITCL_BUILD_LIB_SPEC='-L/croot/tk_1755243777296/work/tcl8.6.15/unix/pkgs/itcl4.3.
 
 # String to pass to linker to pick up the Itcl library from its
 # installed directory.
-itcl_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/itcl4.3.0 -litcl4.3.0'
-ITCL_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/itcl4.3.0 -litcl4.3.0'
+itcl_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/itcl4.3.0 -litcl4.3.0'
+ITCL_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/itcl4.3.0 -litcl4.3.0'
 
 # The name of the Itcl stub library (a .a file):
 itcl_STUB_LIB_FILE=libitclstub4.3.0.a
@@ -40,8 +40,8 @@ ITCL_BUILD_STUB_LIB_SPEC='-L/croot/tk_1755243777296/work/tcl8.6.15/unix/pkgs/itc
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/itcl4.3.0 -litclstub4.3.0'
-ITCL_STUB_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/itcl4.3.0 -litclstub4.3.0'
+itcl_STUB_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/itcl4.3.0 -litclstub4.3.0'
+ITCL_STUB_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/itcl4.3.0 -litclstub4.3.0'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
@@ -50,8 +50,8 @@ ITCL_BUILD_STUB_LIB_PATH='/croot/tk_1755243777296/work/tcl8.6.15/unix/pkgs/itcl4
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_PATH='/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/itcl4.3.0/libitclstub4.3.0.a'
-ITCL_STUB_LIB_PATH='/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/itcl4.3.0/libitclstub4.3.0.a'
+itcl_STUB_LIB_PATH='/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/itcl4.3.0/libitclstub4.3.0.a'
+ITCL_STUB_LIB_PATH='/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/itcl4.3.0/libitclstub4.3.0.a'
 
 # Location of the top-level source directories from which [incr Tcl]
 # was built.  This is the directory that contains generic, unix, etc.

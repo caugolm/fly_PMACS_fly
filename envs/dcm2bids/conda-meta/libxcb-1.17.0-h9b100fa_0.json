@@ -1,16 +1,15 @@
 {
   "build": "h9b100fa_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
-    "libgcc-ng >=11.2.0",
     "pthread-stubs",
+    "libgcc-ng >=11.2.0",
     "xorg-libxau >=1.0.12,<2.0a0",
     "xorg-libxdmcp >=1.1.5,<2.0a0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/libxcb-1.17.0-h9b100fa_0",
-  "features": "",
   "files": [
     "include/xcb/bigreq.h",
     "include/xcb/composite.h",
@@ -149,9 +148,7 @@
     "lib/pkgconfig/xcb.pc"
   ],
   "fn": "libxcb-1.17.0-h9b100fa_0.conda",
-  "legacy_bz2_md5": "623e472cf0c02599f01c49879dab1bb6",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/libxcb-1.17.0-h9b100fa_0",
     "type": 1
@@ -886,7 +883,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "392617736c36bfb04c216404910e13a3f71c1e6a2c48147f76f14eb1f0ba34e6",
-        "sha256_in_prefix": "fa6e9e68496657495e175ece069caf9b740c49bf8bddb7faa253c01e934c7d7c",
+        "sha256_in_prefix": "a7ee5c31ab32bbfa5ee0994e8df664484af4462b87366b26569a6fb5c691e226",
         "size_in_bytes": 505
       },
       {
@@ -895,7 +892,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "61a8f7c5570dafdd83147b8873a375b2e66f4bad3bcd8796799ed2d34815264c",
-        "sha256_in_prefix": "e2beb303e996ce8ebdf9e2f0195442e82868af5f7cfae150176f804b9305d3d6",
+        "sha256_in_prefix": "29be3b2b98d1b83cbba675c971d635a94bbe6eb6f1514feecc79b32b30b67bd3",
         "size_in_bytes": 496
       },
       {
@@ -904,7 +901,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "158d46272102d561bb35806b13bb9e6821b2cca1ddbbd704a78f9b989fc4cd8a",
-        "sha256_in_prefix": "f569075560390fd5274d804d3df61c4f481c7a14370dd9308d7810fe586bbb57",
+        "sha256_in_prefix": "85327b86c33fba01055c3e32a1e112bc100aae8d96f1127ad5e0db0b8e68db24",
         "size_in_bytes": 486
       },
       {
@@ -913,7 +910,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "4543c474a991cb876c7ddb2edbcd245233e78e8da59bfd107f2ed963fcc74127",
-        "sha256_in_prefix": "29554a3ef6df656421991b15a25bf13fe629e05b83eeb2e8b30abe869b97fce2",
+        "sha256_in_prefix": "04cb81371d240ba34d3f81dd629bd17bd8209e9624ebf6c829ae0cb9a740658f",
         "size_in_bytes": 479
       },
       {
@@ -922,7 +919,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "9fe8b646d38e60a95a12f703d187a552735782e41e3cc76541f02e352ebf0b33",
-        "sha256_in_prefix": "757f95b63b0bcddd71fd92158ae589ae2921c9ed27d47cb391bb06e0347ccdfa",
+        "sha256_in_prefix": "19961ca52625acd7181f6d5c94394bf96eeb5fa82d143231d5742efbe8e84bc8",
         "size_in_bytes": 479
       },
       {
@@ -931,7 +928,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "05e53632ace30b0bba860cfe6247cd477938686d53bdb3393be97486532c8260",
-        "sha256_in_prefix": "4e5999c21534f6af11c2bb3436190ba8efc78fa7b63ad49383c67c0d9a9f1292",
+        "sha256_in_prefix": "6086a7947a571cc1a6f4319db5716979f9764ca0e8358392467be7225fdd1359",
         "size_in_bytes": 479
       },
       {
@@ -940,7 +937,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "20be637b478c9c36c1764da2929111baa9bb5583ef954ce0852b02274b83bea8",
-        "sha256_in_prefix": "c62c5742183baa195a1d701e1a446985c022a9f3df498f776830d471841e1170",
+        "sha256_in_prefix": "3523c6e0a96f7046e2d6026c8a456130fa37e8df49939cb28238eef61dd4603b",
         "size_in_bytes": 476
       },
       {
@@ -949,7 +946,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "3c66e22264bf0d7eee239be9d602956cb230394ab0e35ad41e7d83a2b840a195",
-        "sha256_in_prefix": "25c59b2363ac15f3bb14d11b0cf32132bd3500d12c1717ac6b28f8adeecd2444",
+        "sha256_in_prefix": "4ea34be95e85a0a46f8b252dbe64f2a33565401f2cbf33000decaff0f22255c6",
         "size_in_bytes": 527
       },
       {
@@ -958,7 +955,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "0dd2b23f16efa52fd8fc360d03190da2162b7033fb5ef44075b96913ad7e7559",
-        "sha256_in_prefix": "9862fd7994d856eee229640c9a019a0367a865e30c61e2b059fb4c7250950cbc",
+        "sha256_in_prefix": "e110a883f8e6824dd12cc084ea7be6628c25583895a0c2696496bd542c6778a6",
         "size_in_bytes": 493
       },
       {
@@ -967,7 +964,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "c1fc6da33e42dc7c5f8fa3a052a58f045cef613b56e5c4ba20194caedb19ddc9",
-        "sha256_in_prefix": "ba3665387013d10ff453f3e98c26bcbdee0f245b176a2228a167c684a698a1d1",
+        "sha256_in_prefix": "92dc92a6834b8caa9811e25f7d55bdcd424bf0bcd07a016087a0986ffccb1d68",
         "size_in_bytes": 485
       },
       {
@@ -976,7 +973,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "629c3d1799397ddf1025f9e7a3bd946d5123ea510e48096a588787d75e90ebf6",
-        "sha256_in_prefix": "ca694b22ae53d75b92d0261dedeed44192a504218221ee7be3f595918f5c3cfe",
+        "sha256_in_prefix": "346970a04511a4fa665f1acfbb33fce6adba6c8840ded70c34037f4b7c2da1d0",
         "size_in_bytes": 485
       },
       {
@@ -985,7 +982,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "46782bd54c5668e9157fbaada2c50f39808d08c8a9f9a27b70f66396ea572fbb",
-        "sha256_in_prefix": "079e464f269787c2b064f6550dbf6108ab7dc6feb943700f4112b594fcca57af",
+        "sha256_in_prefix": "6b33d92a0fb572e1e27683000a8786e22fa53072fdbdf74e86cd9619df1b6521",
         "size_in_bytes": 483
       },
       {
@@ -994,7 +991,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "cae42767c334c1793d95d68df0c4e9cd6ba7f899652701fa9ed55be4268a9de1",
-        "sha256_in_prefix": "ef209cb902e7ec17a66688d8c2c97b206b3fcd9510697f6a331e5b673471175d",
+        "sha256_in_prefix": "16cd66607510c9876edb8c8c910df7f1592c159fc390d3f7bedeaeab240fe7ff",
         "size_in_bytes": 500
       },
       {
@@ -1003,7 +1000,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "a5ccf172f64cee9a823e8b111251bbba912dac90e2416852ff0ad16197d17bfc",
-        "sha256_in_prefix": "96a76702fe4537833267ff6af8b454ace61935a5267c82274a5418114d2ad2e7",
+        "sha256_in_prefix": "25b11ba09b7cbbe21a2c2b059b695b0211b9a93aa597e8373ce00fd75152467b",
         "size_in_bytes": 482
       },
       {
@@ -1012,7 +1009,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "0862d1554b125d19ad653c58d019a1dfca3c8ca084f6c56857167240360f5f5b",
-        "sha256_in_prefix": "b08fe0de02fc91fd4f267ccb316f5c590d914e398d88a675c744b970aa29e519",
+        "sha256_in_prefix": "e32aa04b92aabea8d49874109680c6f6a83f74a92236cdeb5b9803611a0cd961",
         "size_in_bytes": 476
       },
       {
@@ -1021,7 +1018,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "b99b3603464217884bbeba73cfcb94bc6f0aa03974d8c519c2dd0649c3f37383",
-        "sha256_in_prefix": "9095c2e8936d4d9e7f36336dc6a79efba8c580898f9b956ee13a6cf1a9e32da7",
+        "sha256_in_prefix": "7bcf5b3f69802ad55df20d7958ad4d026741ead2b0c9b10d1de6539956d2dd1e",
         "size_in_bytes": 479
       },
       {
@@ -1030,7 +1027,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "a807cca9282a9e5f07b9630901cb7f19457e88958ba34c93a991d8e86e89f346",
-        "sha256_in_prefix": "1850172ec9948216f1e40a2386937f85edb2106471e8958792330b082614dddf",
+        "sha256_in_prefix": "1cbfa91739e77670530e307b13487c29f2fd26423f965e1d71b83617197022e6",
         "size_in_bytes": 496
       },
       {
@@ -1039,7 +1036,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "669435a533dbe30b510ec0b06bce813ca79263235bff639ee3a7f2891986ca08",
-        "sha256_in_prefix": "cea1d7c700d74e53617aca662f24c1309f9faed921bfdab413bb712a294e98a4",
+        "sha256_in_prefix": "faed94040b27145c1483d10bd8267659e1b06e8a9bc301983394da58c57fccba",
         "size_in_bytes": 506
       },
       {
@@ -1048,7 +1045,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "9018d4a33bcd34aa3252beae1feba57484f659dac7bc87b39bdcf7f6697560f3",
-        "sha256_in_prefix": "1c63e38a381b391a9962c667a5473825c44677c89e0226b89a7c9f8287b4dcf9",
+        "sha256_in_prefix": "f9bf43ee301a2ed982b72dfa3f2ec047e73ed274aedd78d735daadf9e0bdb9ad",
         "size_in_bytes": 491
       },
       {
@@ -1057,7 +1054,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "193f8d2828f2f9d801849afb0724ded452969e2b26ceccb4de84fe3233618010",
-        "sha256_in_prefix": "9ad2e42382902417ae2069dc759899129c01d5d81b927bdd917525e57b1aad73",
+        "sha256_in_prefix": "12b636c8e16caa84a6f583e79e29dd31f8e8069029037b9fdb1f4a5b562696e7",
         "size_in_bytes": 511
       },
       {
@@ -1066,7 +1063,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "46bae313161719ee817b9b5f53ec4726af472c597a1365fec45214fde4ce177a",
-        "sha256_in_prefix": "413f9fc276161c256770953f214d6720d227c33ce8a808603ac2d0177f9974d8",
+        "sha256_in_prefix": "a595c6aee819f35da984d7a142c3d412d36c07d58b2db7d002f0c9bce5a84747",
         "size_in_bytes": 496
       },
       {
@@ -1075,7 +1072,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "265cda1d94bb6b116643af0351fc9e72645cf5ec413be8b3de999c052ef3d246",
-        "sha256_in_prefix": "b8ae59c4bda136e53b36084f22e9998b552784fb2fa3d214c959cfa3075d689f",
+        "sha256_in_prefix": "f44f7b2f4b77b17c5f89924c896081aac97aee5966900a10e6228dd0d266f9d7",
         "size_in_bytes": 482
       },
       {
@@ -1084,7 +1081,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "04d4e7aeab299d7860e95603e505133db8a8dcbd0cc6c4429fa4201604e47325",
-        "sha256_in_prefix": "392f3b8b7972ffed235c351a6f0c926b8220923647a2f6de2e0dc10d86e1f829",
+        "sha256_in_prefix": "01bf6f4ec3cf1840da9f10690c9d4536f1e22732c360af405b383476ec6be60e",
         "size_in_bytes": 481
       },
       {
@@ -1093,7 +1090,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "7ef8be5864a07233ad970698eeef08d20f9b513f5a339f1fe573023f9467264b",
-        "sha256_in_prefix": "de6e747c34f1c1dd058175db9f92e240230f015e34fb829daca62e38c8e7d564",
+        "sha256_in_prefix": "4485363d6f8a2201dd9aae9ee155f28e5d469644d65271bbe26c4b58b01a7df9",
         "size_in_bytes": 486
       },
       {
@@ -1102,18 +1099,17 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libxcb_1746022161355/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "ef77d897b119da593048c8a664b51dadaceb90c84700549d7635122bd19ba439",
-        "sha256_in_prefix": "ce60db288476e077a4b47409759732ca458bb07a302d3714eef4a523978c8245",
+        "sha256_in_prefix": "c2b18107c62efb641f331e7fcdf7799df7a03a5a308e82e7e17270744a662685",
         "size_in_bytes": 526
       }
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "libxcb==1.17.0=h9b100fa_0",
   "sha256": "f9cd1564fc83261ddba7496404f18143d4f8fda52e42c040005c1b1ad3e47f56",
   "size": 440690,
   "subdir": "linux-64",
-  "timestamp": 1746022211479,
-  "track_features": "",
+  "timestamp": 1746022211000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/libxcb-1.17.0-h9b100fa_0.conda",
   "version": "1.17.0"
 }

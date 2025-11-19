@@ -32,12 +32,14 @@ calculate_add_motion=$8
 
 dicom_dir=${dicom_base}/${subj}/${sess}
 uncompressed_dicom_dir=${dicom_base}/${subj}/${sess}/uncompressed/
+
+module unload miniconda 
+module load miniconda/3-25
 eval "$(conda shell.bash hook)"
 
 conda activate $dcm2bids_conda_path
 
 echo "Running dcm2niix for subject: $subj and session: $sess"
-
 
 nifti_dir=${bids_base}/tmp_dcm2bids/sub-${subj}_ses-${sess}
 
@@ -100,4 +102,3 @@ if [ -e ${dicom_dir}/dicoms.tar ]; then
     rm -rf ${uncompressed_dicom_dir}
 fi
 
-conda deactivate

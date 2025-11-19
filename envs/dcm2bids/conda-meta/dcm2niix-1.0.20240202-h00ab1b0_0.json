@@ -1,20 +1,18 @@
 {
   "build": "h00ab1b0_0",
   "build_number": 0,
-  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "channel": "https://conda.anaconda.org/conda-forge",
   "constrains": [],
   "depends": [
     "libgcc-ng >=12",
     "libstdcxx-ng >=12"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/dcm2niix-1.0.20240202-h00ab1b0_0",
-  "features": "",
   "files": [
     "bin/dcm2niix"
   ],
   "fn": "dcm2niix-1.0.20240202-h00ab1b0_0.conda",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/dcm2niix-1.0.20240202-h00ab1b0_0",
     "type": 1
@@ -34,12 +32,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "dcm2niix=1.0.20240202",
+  "requested_spec": "dcm2niix==1.0.20240202=h00ab1b0_0",
   "sha256": "13d2be737bd3b026e2fbc4e5377df0da4db1913b5a009473602b71982625a353",
   "size": 245460,
   "subdir": "linux-64",
-  "timestamp": 1708127084773,
-  "track_features": "",
+  "timestamp": 1708127084000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/dcm2niix-1.0.20240202-h00ab1b0_0.conda",
   "version": "1.0.20240202"
 }

@@ -1,16 +1,15 @@
 {
   "build": "h9b100fa_1",
   "build_number": 1,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "libgcc-ng >=11.2.0",
     "libxcb >=1.17.0,<2.0a0",
-    "xorg-xorgproto >=2024.1",
-    "xorg-xorgproto >=2024.1,<2025.0a0"
+    "xorg-xorgproto >=2024.1,<2025.0a0",
+    "xorg-xorgproto >=2024.1"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/xorg-libx11-1.8.12-h9b100fa_1",
-  "features": "",
   "files": [
     "include/X11/ImUtil.h",
     "include/X11/XKBlib.h",
@@ -226,9 +225,7 @@
     "share/X11/locale/zh_TW/XLC_LOCALE"
   ],
   "fn": "xorg-libx11-1.8.12-h9b100fa_1.conda",
-  "legacy_bz2_md5": "f0b98becde0651fe764283bce9423e87",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/xorg-libx11-1.8.12-h9b100fa_1",
     "type": 1
@@ -366,7 +363,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "42b82811c7f974e982d9808703d6eae6f5b9fc97ff2967f1909852e7dc6237d7",
-        "sha256_in_prefix": "a428be9a28228e2acd31173d223e14f298e210740f16607fc408efa296d84fe0",
+        "sha256_in_prefix": "6a94bae2d792949a7e90c43ebf9e17f645eb9ba8d03afb04207759e4796f1afb",
         "size_in_bytes": 1460344
       },
       {
@@ -375,7 +372,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "7879cd5f740d356b4e4a9cb101eafbafc8cb8983aa3aa80d033fc634e4104f0d",
-        "sha256_in_prefix": "6b0ade2a39a365ce7c24ec4bffb5fc0c673ec2512136e444405772b37d3cdc6c",
+        "sha256_in_prefix": "451ed5326b641e2b68485062b8097cf8c7a5f9c6ab121e53eda133c50adee368",
         "size_in_bytes": 478
       },
       {
@@ -384,7 +381,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "2521d1d18f8103d8f77d0fecf2b7f7ab5cca0b36b56d984570bce4629893f1d7",
-        "sha256_in_prefix": "9f4f9c7a1e1fa5e127ee6b76987a3bba0b3195a8c1ea4b19ba27947e9e5cfaaf",
+        "sha256_in_prefix": "d9943b43f080fdef844542c4694cfe580c0670e36926079a7e5b26542e6e0a0a",
         "size_in_bytes": 595
       },
       {
@@ -428,7 +425,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "b44830af598bd9019f3355eb3a698112f943c9aa49111b1424160a3106eccbfb",
-        "sha256_in_prefix": "e5f83c6bfeefb93c294d4211a1942825becf8dd9d0f0693b8301e84ea43fbd99",
+        "sha256_in_prefix": "74cca75ed4c9076921b3c87782dab8fa0716a654e8e82de8f457de72d5eedc1c",
         "size_in_bytes": 17671
       },
       {
@@ -479,7 +476,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "931a17a6da4e1dc9b1b6708f6433ba60431f4fbc2e85cebee92ead363204a342",
-        "sha256_in_prefix": "9110372ea9f15857d75ef9a72d17c6b4f24f43bdb78db6034fde5e77e87931bd",
+        "sha256_in_prefix": "9a16e8142b5fd9200511b87d46beb82bf7f3d99565f7eb527ba2cc2ff09649a2",
         "size_in_bytes": 763
       },
       {
@@ -544,7 +541,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "fbd86e1a4865b1664990dec02d6eca74cc99656a5a29531f5ef11805bbdd5456",
-        "sha256_in_prefix": "ceb0d3b094531d1c50240952f6cf6c0488e43e4b89f625e5f4d70852f40ef3f5",
+        "sha256_in_prefix": "e5fd2adc0cbf8036b2f02f7f5d96f979833ddb46bc8cbc951521fcdf45951b05",
         "size_in_bytes": 36478
       },
       {
@@ -1050,7 +1047,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1073,7 +1070,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1117,7 +1114,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1322,7 +1319,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "b88af001c45dac0ea1b11fe2b98f9c9774687717f2549e5dc70fd0274a736350",
-        "sha256_in_prefix": "e96aff8563eb437cbe4f4645ec1db33db5ca0755608a531e34868284c92edf7a",
+        "sha256_in_prefix": "b071108b764619a4200e05a5396a69c075ab435a10ef3c0b4207a27829665c9d",
         "size_in_bytes": 1656
       },
       {
@@ -1345,7 +1342,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "7988b444f5e2b4a1b435602d95960fd4a7c31c8f8fc686c474d7515baec0f0cc",
-        "sha256_in_prefix": "3ea9937566908f5d0d27960ff9a9ae57d045322091aca2b586aeea45aca2962a",
+        "sha256_in_prefix": "3a4ee1b6d1efb86e272d0208156f129eb2e4f3ae5dd93e4a0ed4e0e64c434eb9",
         "size_in_bytes": 443
       },
       {
@@ -1368,7 +1365,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1391,7 +1388,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "a399d2bb92b90f1f3323e24418a6e5ac19a2aa1fb124272b3738b470b50b7f96",
-        "sha256_in_prefix": "bfdd257a392702e894ee53973b565a288feaf0caea12dbd5e68cd8951d06b009",
+        "sha256_in_prefix": "2d177f97212f9e477af21798d55911dce17c9d3221b6a214ce657e57f0f339c5",
         "size_in_bytes": 5129
       },
       {
@@ -1435,7 +1432,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1542,7 +1539,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1628,7 +1625,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1693,7 +1690,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libx11_1746109960097/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "0e562eee58f98dc1e446f584990383596b402833599b3134ebc82f41185a8962",
-        "sha256_in_prefix": "11ab1198ca17adc208375acda746d0d21be375d20b88a4f189e2894069402a15",
+        "sha256_in_prefix": "bd97decfa82e16208cab645260858a59f64b1345546f46c58b42f532e73ddcc2",
         "size_in_bytes": 303
       },
       {
@@ -1755,12 +1752,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "xorg-libx11==1.8.12=h9b100fa_1",
   "sha256": "e9e6228687c03d1c1318f6d7434e6c54f1a5e821def15d4926a5ce4c0a01a17e",
   "size": 916212,
   "subdir": "linux-64",
-  "timestamp": 1746110020649,
-  "track_features": "",
+  "timestamp": 1746110020000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/xorg-libx11-1.8.12-h9b100fa_1.conda",
   "version": "1.8.12"
 }

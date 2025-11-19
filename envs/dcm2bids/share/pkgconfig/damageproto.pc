@@ -1,4 +1,4 @@
-prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
+prefix=/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids
 includedir=${prefix}/include
 
 Name: DamageProto

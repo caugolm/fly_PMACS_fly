@@ -1,13 +1,12 @@
 {
   "build": "hbd8a1cb_0",
   "build_number": 0,
-  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "channel": "https://conda.anaconda.org/conda-forge",
   "constrains": [],
   "depends": [
     "__unix"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/ca-certificates-2025.8.3-hbd8a1cb_0",
-  "features": "",
   "files": [
     "ssl/cacert.pem",
     "ssl/cert.pem"
@@ -41,12 +40,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "ca-certificates==2025.8.3=hbd8a1cb_0",
   "sha256": "837b795a2bb39b75694ba910c13c15fa4998d4bb2a622c214a6a5174b2ae53d1",
   "size": 154402,
   "subdir": "noarch",
-  "timestamp": 1754210968730,
-  "track_features": "",
+  "timestamp": 1754210968000,
   "url": "https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.8.3-hbd8a1cb_0.conda",
   "version": "2025.8.3"
 }

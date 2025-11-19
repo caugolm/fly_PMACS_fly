@@ -1,14 +1,13 @@
 {
   "build": "h6a678d5_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/expat-2.7.1-h6a678d5_0",
-  "features": "",
   "files": [
     "bin/xmlwf",
     "include/expat.h",
@@ -28,9 +27,7 @@
     "share/man/man1/xmlwf.1"
   ],
   "fn": "expat-2.7.1-h6a678d5_0.conda",
-  "legacy_bz2_md5": "9d007a4778f2aa30429cad8658da8abd",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/expat-2.7.1-h6a678d5_0",
     "type": 1
@@ -128,7 +125,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/expat_1744659816673/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "c1fa0f1bebf1ba0734e4c3f74ea1c16171dcb4c0b554a98f943154f1f46d5fe9",
-        "sha256_in_prefix": "3299cf3ca0bcd75f1f0d1de3dfdaf38bb5ec3b6e22cbf1c7cdfff07530393f12",
+        "sha256_in_prefix": "908494ee9524339cc8e3c513f988db18c07730051f11421a5a19a626aa167212",
         "size_in_bytes": 528
       },
       {
@@ -155,12 +152,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "expat==2.7.1=h6a678d5_0",
   "sha256": "583895800664771937e7fe3963bdd9e78b34689eb3fcf115d7be5a4d1c6d9f5f",
   "size": 185917,
   "subdir": "linux-64",
-  "timestamp": 1744659862400,
-  "track_features": "",
+  "timestamp": 1744659862000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/expat-2.7.1-h6a678d5_0.conda",
   "version": "2.7.1"
 }
