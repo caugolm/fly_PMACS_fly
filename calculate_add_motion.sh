@@ -9,6 +9,8 @@ bids_base=$5
 dicom_dir=${dicom_base}/${subj}/${sess}/
 bids_dir=${bids_base}/sub-${subj}/ses-${sess}/
 
+time_window=3
+
 for tmpDira in `find "${dicom_dir}/uncompressed/" -type d `; do 
     echo $tmpDira
     # if the dicom dir contains vnav setters then dicom_check returns dicom series acquisition time, else returns "None"
@@ -26,9 +28,8 @@ for tmpDira in `find "${dicom_dir}/uncompressed/" -type d `; do
         for anat_json in `ls ${bids_dir}/anat/sub-${subj}_ses-${ses}*json`; do
             grep_acqtime=`cat $anat_json | grep "AcquisitionTime"`
             acqtime_string=$(echo $grep_acqtime | cut -d ':' -f2- | cut -d "\"" -f2 | cut -d '.' -f1)
-            echo $setter_acqtime $acqtime_string 2
-            time_match=`python ${scripts_dir}/envelope_time_match.py $setter_acqtime $acqtime_string 3 `
-            echo $time_match
+            echo $setter_acqtime $acqtime_string $time_window
+            time_match=`python ${scripts_dir}/envelope_time_match.py $setter_acqtime $acqtime_string $time_window `
             grep_time_match=$(echo $time_match | grep -i 'true')
             if [[ $grep_time_match != "" ]] ; then
                 echo " adding measured motion $rms and $max to $anat_json"
