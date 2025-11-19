@@ -1,5 +1,0 @@
-#!/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/bin/python3.12
-
-from idlelib.pyshell import main
-if __name__ == '__main__':
-    main()
