@@ -1,4 +1,4 @@
-#!/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/bin/python
+#!/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/bin/python
 
 # -*- coding: utf-8 -*-
 import re

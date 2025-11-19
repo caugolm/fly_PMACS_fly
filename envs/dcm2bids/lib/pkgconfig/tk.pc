@@ -1,8 +1,8 @@
 # tk pkg-config source file
 
-prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
-exec_prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids
-libdir=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib
+prefix=/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids
+exec_prefix=/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids
+libdir=/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib
 includedir=${prefix}/include
 
 Name: The Tk Toolkit

@@ -1,18 +1,17 @@
 {
   "build": "hb25bd0a_1",
   "build_number": 1,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
-    "__glibc >=2.17,<3.0.a0",
     "libgcc-ng >=11.2.0",
-    "ncurses >=6.4,<7.0a0",
-    "readline >=8.0,<9.0a0",
     "zlib >=1.2.13,<2.0.0a0",
-    "zlib >=1.2.13,<2.0a0"
+    "__glibc >=2.17,<3.0.a0",
+    "readline >=8.0,<9.0a0",
+    "zlib >=1.2.13,<2.0a0",
+    "ncurses >=6.4,<7.0a0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/sqlite-3.50.2-hb25bd0a_1",
-  "features": "",
   "files": [
     "bin/sqlite3",
     "include/sqlite3.h",
@@ -24,9 +23,7 @@
     "share/man/man1/sqlite3.1"
   ],
   "fn": "sqlite-3.50.2-hb25bd0a_1.conda",
-  "legacy_bz2_md5": "13291fe76feeb4abb39b27a8087fd762",
   "license": "blessing",
-  "license_family": "Other",
   "link": {
     "source": "/home/olm/.conda/pkgs/sqlite-3.50.2-hb25bd0a_1",
     "type": 1
@@ -82,7 +79,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/sqlite_1752773569017/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "dd72357c7d0846de2e819901f71b495189c720d1821e268b2a3bedbf0572e00a",
-        "sha256_in_prefix": "71c54a511290863e2eb8190c81d1062599c141de820b7d06c2d470e30e23d093",
+        "sha256_in_prefix": "8f70114827de9ae14772754ac839c9f5ae6e76841a883c3903133f9f00eb106b",
         "size_in_bytes": 516
       },
       {
@@ -95,12 +92,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "sqlite==3.50.2=hb25bd0a_1",
   "sha256": "6d4069cc8f61eeacea7e018ceb27f23c44b40836da9e74965be91e3bc422ac98",
   "size": 1151016,
   "subdir": "linux-64",
-  "timestamp": 1752773631879,
-  "track_features": "",
+  "timestamp": 1752773631000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/sqlite-3.50.2-hb25bd0a_1.conda",
   "version": "3.50.2"
 }

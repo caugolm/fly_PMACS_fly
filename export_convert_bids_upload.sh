@@ -37,13 +37,18 @@ else
 	exit 1
 fi
 
-echo "Using python version: 3.11"
-module unload python
-module load python/3.11
+module unload miniconda 
+module load miniconda/3-25
+eval "$(conda shell.bash hook)"
+
+conda activate $dcm2bids_conda_path
+
 
 # Export dicoms from flywheel:
 echo "Exporting dicoms from Flywheel for subject: $subj, session: $sess"
-python ${scripts_dir}/sdkexport_dicoms.py ${subj} ${sess} ${flywheel_group} ${flywheel_project} ${dicom_base} ${exclude_quarantine}
+cmd="python ${scripts_dir}/sdkexport_dicoms.py ${subj} ${sess} ${flywheel_group} ${flywheel_project} ${dicom_base} ${exclude_quarantine}"
+echo $cmd
+$cmd
 echo "Export complete."
 echo "Dicoms exported to: ${dicom_base}/${subj}/${sess}"
 echo "*--------------------------------*"

@@ -1,13 +1,12 @@
 {
   "build": "py312h06a4308_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/wheel-0.45.1-py312h06a4308_0",
-  "features": "",
   "files": [
     "bin/wheel",
     "lib/python3.12/site-packages/wheel-0.45.1.dist-info/LICENSE.txt",
@@ -77,9 +76,7 @@
     "lib/python3.12/site-packages/wheel/wheelfile.py"
   ],
   "fn": "wheel-0.45.1-py312h06a4308_0.conda",
-  "legacy_bz2_md5": "6b29c81ab4cf98f6185ad0244c03f742",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/wheel-0.45.1-py312h06a4308_0",
     "type": 1
@@ -95,7 +92,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/wheel_1737990206319/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "9a454821f0d68ed345128df773742cc9dd845c1d02fe9d12726aec29a74e058b",
-        "sha256_in_prefix": "6cdfca0c59aa1e238351cded0f32a8bd394d423551216e751792d3923f9f6eb6",
+        "sha256_in_prefix": "93b3e2dcb03dbdf70e842ae8abb81f2e8a7ded9cc4fff664cf935a330a6648af",
         "size_in_bytes": 462
       },
       {
@@ -556,12 +553,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "wheel==0.45.1=py312h06a4308_0",
   "sha256": "1b17d1f3ae825786a64c06978a7928b64e93549dd885dae98fd7b62a3afcf122",
   "size": 150151,
   "subdir": "linux-64",
-  "timestamp": 1737990251855,
-  "track_features": "",
+  "timestamp": 1737990251000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/wheel-0.45.1-py312h06a4308_0.conda",
   "version": "0.45.1"
 }

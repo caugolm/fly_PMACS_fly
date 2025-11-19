@@ -1,11 +1,10 @@
 {
   "build": "h04d1e81_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [],
   "extracted_package_dir": "/home/olm/.conda/pkgs/tzdata-2025b-h04d1e81_0",
-  "features": "",
   "files": [
     "share/zoneinfo/Africa/Abidjan",
     "share/zoneinfo/Africa/Accra",
@@ -615,9 +614,7 @@
     "share/zoneinfo/zonenow.tab"
   ],
   "fn": "tzdata-2025b-h04d1e81_0.conda",
-  "legacy_bz2_md5": "619ca922f608d62ebe242b8ac4b87ea6",
   "license": "CC-PDDC OR BSD-3-Clause",
-  "license_family": "BSD",
   "link": {
     "source": "/home/olm/.conda/pkgs/tzdata-2025b-h04d1e81_0",
     "type": 1
@@ -4874,12 +4871,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "tzdata==2025b=h04d1e81_0",
   "sha256": "3c9fefdfb2335e8641642e964cfaf20513d40ec709ab559b47b52d99b2e46fea",
   "size": 119222,
   "subdir": "noarch",
-  "timestamp": 1746111609280,
-  "track_features": "",
+  "timestamp": 1746111609000,
   "url": "https://repo.anaconda.com/pkgs/main/noarch/tzdata-2025b-h04d1e81_0.conda",
   "version": "2025b"
 }

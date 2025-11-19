@@ -1,13 +1,12 @@
 {
   "build": "pyhd8ed1ab_1",
   "build_number": 1,
-  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "channel": "https://conda.anaconda.org/conda-forge",
   "constrains": [],
   "depends": [
     "python >=3.9"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/dcm2bids-3.2.0-pyhd8ed1ab_1",
-  "features": "",
   "files": [
     "lib/python3.12/site-packages/dcm2bids-3.2.0.dist-info/INSTALLER",
     "lib/python3.12/site-packages/dcm2bids-3.2.0.dist-info/LICENSE.txt",
@@ -60,7 +59,6 @@
   ],
   "fn": "dcm2bids-3.2.0-pyhd8ed1ab_1.conda",
   "license": "GPL-3.0-only",
-  "license_family": "GPL",
   "link": {
     "source": "/home/olm/.conda/pkgs/dcm2bids-3.2.0-pyhd8ed1ab_1",
     "type": 1
@@ -348,12 +346,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "conda-forge::dcm2bids",
+  "requested_spec": "dcm2bids==3.2.0=pyhd8ed1ab_1",
   "sha256": "988ccd4889adad1c2bfc316de565ecc5d4927b46d82103306d5720d8669b6184",
   "size": 43121,
   "subdir": "noarch",
-  "timestamp": 1741863073989,
-  "track_features": "",
+  "timestamp": 1741863073000,
   "url": "https://conda.anaconda.org/conda-forge/noarch/dcm2bids-3.2.0-pyhd8ed1ab_1.conda",
   "version": "3.2.0"
 }

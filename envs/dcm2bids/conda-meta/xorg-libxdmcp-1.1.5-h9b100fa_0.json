@@ -1,13 +1,12 @@
 {
   "build": "h9b100fa_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/xorg-libxdmcp-1.1.5-h9b100fa_0",
-  "features": "",
   "files": [
     "include/X11/Xdmcp.h",
     "lib/libXdmcp.so",
@@ -16,9 +15,7 @@
     "lib/pkgconfig/xdmcp.pc"
   ],
   "fn": "xorg-libxdmcp-1.1.5-h9b100fa_0.conda",
-  "legacy_bz2_md5": "06a53975cfb6a6c46f7c60a0860a546c",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/xorg-libxdmcp-1.1.5-h9b100fa_0",
     "type": 1
@@ -60,18 +57,17 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libxdmcp_1745992248260/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
         "sha256": "de13cbc0e8bb68d72dda11f9de715d8ebcee454f40a3863acacff9acee789f20",
-        "sha256_in_prefix": "3b3646cde750ca192cc7f442c7296c58ff836f39dac8a42e6b10b61ebc494cac",
+        "sha256_in_prefix": "190d805a14c54c457accd4699a533fa0a5d022b44abfa79e64768db5952087dd",
         "size_in_bytes": 491
       }
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "xorg-libxdmcp==1.1.5=h9b100fa_0",
   "sha256": "459c8497d1c22b020404b481fa12011abeb27d8eefde37dd4ac9f5a443fd5ac7",
   "size": 19260,
   "subdir": "linux-64",
-  "timestamp": 1745992279492,
-  "track_features": "",
+  "timestamp": 1745992279000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/xorg-libxdmcp-1.1.5-h9b100fa_0.conda",
   "version": "1.1.5"
 }

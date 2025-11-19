@@ -1,15 +1,14 @@
 {
   "build": "h26f9b46_0",
   "build_number": 0,
-  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "channel": "https://conda.anaconda.org/conda-forge",
   "constrains": [],
   "depends": [
-    "__glibc >=2.17,<3.0.a0",
     "ca-certificates",
+    "__glibc >=2.17,<3.0.a0",
     "libgcc >=14"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/openssl-3.5.2-h26f9b46_0",
-  "features": "",
   "files": [
     "bin/c_rehash",
     "bin/openssl",
@@ -175,7 +174,6 @@
   ],
   "fn": "openssl-3.5.2-h26f9b46_0.conda",
   "license": "Apache-2.0",
-  "license_family": "Apache",
   "link": {
     "source": "/home/olm/.conda/pkgs/openssl-3.5.2-h26f9b46_0",
     "type": 1
@@ -191,7 +189,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openssl_split_1754464618447/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "a046b5424e6200dbaa148fad7614a6a7b946a6be5b90fa56eaa05e2715ef5d99",
-        "sha256_in_prefix": "797c0009eb48940627274aeaefc3e33ce6aa7a0bdbe34bc810de992cd1d2b0b8",
+        "sha256_in_prefix": "21e5d5245a89864cced9e7aee6df2559edd49b0571a0dc9c16c8e7480e16db7e",
         "size_in_bytes": 7156
       },
       {
@@ -1221,7 +1219,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openssl_split_1754464618447/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "fbe96a6c88fb907efa4d5fb6c30f491bf4feb5880cf3fb532fe2dc18842b3bcc",
-        "sha256_in_prefix": "7afc913a951386e095ec1a806c904fc4dbc871190061ff4d76f179940356254c",
+        "sha256_in_prefix": "39e38ee5230da1bc21cd6dbc931dfb23639d85132dc6fcdae88d5fb1316a92de",
         "size_in_bytes": 7082104
       },
       {
@@ -1243,7 +1241,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openssl_split_1754464618447/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "f4cb21ff8e7d48d167cf15a3b5bc29d1b4e2d9fc84f9f49cfb6c9eb6acdad637",
-        "sha256_in_prefix": "f3bda3b81be965b543e37131c8e1d90c877443406e78eb6d0b847d6950a39183",
+        "sha256_in_prefix": "4345513379b0529440bad91cf05fb0670d313a2e51d197f7da6aed4fda8f102e",
         "size_in_bytes": 567
       },
       {
@@ -1252,7 +1250,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openssl_split_1754464618447/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "4358f8a03e50054b58f4a73836d0a969fcfc38467bdb8e7e628d51cbdc7dbe6b",
-        "sha256_in_prefix": "78f0103b686b9ec41fea4f31036788759c9bb1d9f094368675e4cf750b3bf8ac",
+        "sha256_in_prefix": "fbbb474fde5c6add5f927d6e074167f98f0c875cc6f1cff2ac019b68185c6c4a",
         "size_in_bytes": 515
       },
       {
@@ -1261,7 +1259,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openssl_split_1754464618447/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "73ee93ca66fe0fbb9e5f6019f383478dc7de836525f7f2d55734caf4d74da72c",
-        "sha256_in_prefix": "05ab5709068d97e67faef43f152ed62124bb495ce5980e9d6c1dbf0cae4b43e4",
+        "sha256_in_prefix": "04a9a2222abf6113a7aaaa88647a4fa5f9449a6258344e4b508b216be5471904",
         "size_in_bytes": 469
       },
       {
@@ -1322,12 +1320,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "openssl==3.5.2=h26f9b46_0",
   "sha256": "c9f54d4e8212f313be7b02eb962d0cb13a8dae015683a403d3accd4add3e520e",
   "size": 3128847,
   "subdir": "linux-64",
-  "timestamp": 1754465526100,
-  "track_features": "",
+  "timestamp": 1754465526000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.2-h26f9b46_0.conda",
   "version": "3.5.2"
 }
