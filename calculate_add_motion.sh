@@ -27,7 +27,7 @@ for tmpDira in `find "${dicom_dir}/uncompressed/" -type d `; do
             grep_acqtime=`cat $anat_json | grep "AcquisitionTime"`
             acqtime_string=$(echo $grep_acqtime | cut -d ':' -f2- | cut -d "\"" -f2 | cut -d '.' -f1)
             echo $setter_acqtime $acqtime_string 2
-            time_match=`python ${scripts_dir}/envelope_time_match.py $setter_acqtime $acqtime_string 2 `
+            time_match=`python ${scripts_dir}/envelope_time_match.py $setter_acqtime $acqtime_string 3 `
             echo $time_match
             grep_time_match=$(echo $time_match | grep -i 'true')
             if [[ $grep_time_match != "" ]] ; then
