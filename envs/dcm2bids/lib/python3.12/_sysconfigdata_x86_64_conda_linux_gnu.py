@@ -13,20 +13,20 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-fno-strict-overflow -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/bin',
- 'BINLIBDEST': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12',
+ 'BINDIR': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/bin',
+ 'BINLIBDEST': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12',
  'BLDLIBRARY': 'libpython3.12.a',
  'BLDSHARED': 'x86_64-conda-linux-gnu-gcc -pthread -shared -Wl,-O2 '
               '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
               '-Wl,--disable-new-dtags -Wl,--gc-sections '
-              '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-              '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-              '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+              '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+              '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+              '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
               '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
               '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-              '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-              '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-              '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+              '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+              '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+              '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'BOOTSTRAP_HEADERS': '\\',
  'BUILDEXE': '',
  'BUILDPYTHON': 'python',
@@ -39,14 +39,14 @@ build_time_vars = {'ABIFLAGS': '',
            '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
            '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
            '-isystem '
-           '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+           '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
            ' '
            ' '
            '    '
            '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
            '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
            '-isystem '
-           '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+           '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
            ' '
            ' '
            '   ',
@@ -60,7 +60,7 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                      '-fstack-protector-strong -fno-plt -O2 '
                      '-ffunction-sections -pipe -isystem '
-                     '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                     '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                      ' '
                      ' '
                      '  '
@@ -74,53 +74,53 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Werror=implicit-function-declaration '
                             '-fvisibility=hidden',
  'CONFIGURE_CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                       '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                       '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
+                       '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                       '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
  'CONFIGURE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                       '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                      '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                      '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                      '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+                      '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                      '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                      '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'CONFIGURE_LDFLAGS_NODIST': '-fno-semantic-interposition  '
                              '  '
                              ' -g',
  'CONFIGURE_LDFLAGS_NOLTO': '-fno-lto',
- 'CONFIG_ARGS': "'--prefix=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids' "
+ 'CONFIG_ARGS': "'--prefix=/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids' "
                 "'--build=x86_64-conda-linux-gnu' "
                 "'--host=x86_64-conda-linux-gnu' '--enable-ipv6' "
                 "'--with-ensurepip=no' "
-                "'--with-tzpath=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/share/zoneinfo:/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/share/tzinfo' "
+                "'--with-tzpath=/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/share/zoneinfo:/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/share/tzinfo' "
                 "'--with-computed-gotos' '--with-system-expat' "
                 "'--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include' "
-                "'--with-tcltk-libs=-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib "
+                "'--with-tcltk-includes=-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include' "
+                "'--with-tcltk-libs=-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib "
                 "-ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto=full' "
                 "'--enable-optimizations' "
                 "'-oldincludedir=/croot/python-split_1749128176179/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' "
                 "'--disable-shared' 'PROFILE_TASK=-m test --pgo' "
                 "'build_alias=x86_64-conda-linux-gnu' "
                 "'host_alias=x86_64-conda-linux-gnu' "
-                "'PKG_CONFIG_PATH=/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/pkgconfig' "
+                "'PKG_CONFIG_PATH=/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/pkgconfig' "
                 "'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' "
                 "'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC "
                 '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                 '-pipe -isystem '
-                '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                 ' '
                 ' '
                 '   '
                 "' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed "
                 '-Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags '
                 '-Wl,--gc-sections '
-                '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                "-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib' "
+                '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                "-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib' "
                 "'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem "
-                '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                "-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include' "
+                '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                "-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include' "
                 "'CPP=/croot/python-split_1749128176179/_build_env/bin/x86_64-conda-linux-gnu-cpp'",
- 'CONFINCLUDEDIR': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
- 'CONFINCLUDEPY': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/python3.12',
+ 'CONFINCLUDEDIR': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
+ 'CONFINCLUDEPY': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/python3.12',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '/croot/python-split_1749128176179/work/build-static/coverage.info',
  'COVERAGE_LCOV_OPTIONS': '--rc lcov_branch_coverage=1',
@@ -131,11 +131,11 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/croot/python-split_1749128176179/work/Include -DNDEBUG '
              '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-             '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+             '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-             '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
+             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+             '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
  'CXX': 'x86_64-conda-linux-gnu-c++ -pthread',
  'DEEPFREEZE_C': 'Python/deepfreeze/deepfreeze.c',
  'DEEPFREEZE_DEPS': '/croot/python-split_1749128176179/work/Tools/build/deepfreeze.py '
@@ -143,13 +143,13 @@ build_time_vars = {'ABIFLAGS': '',
                     '/croot/python-split_1749128176179/work/Programs/_freeze_module.py '
                     '\\',
  'DEEPFREEZE_OBJS': 'Python/deepfreeze/deepfreeze.o',
- 'DESTDIRS': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids '
-             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12 '
-             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12/lib-dynload',
- 'DESTLIB': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12',
+ 'DESTDIRS': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids '
+             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12 '
+             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12/lib-dynload',
+ 'DESTLIB': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12',
  'DESTPATH': '',
- 'DESTSHARED': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12/lib-dynload',
+ 'DESTSHARED': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -173,7 +173,7 @@ build_time_vars = {'ABIFLAGS': '',
  'ENSUREPIP': 'no',
  'EXE': '',
  'EXEMODE': 755,
- 'EXENAME': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/bin/python3.12',
+ 'EXENAME': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/bin/python3.12',
  'EXPORTSFROM': '',
  'EXPORTSYMS': '',
  'EXTRATESTOPTS': '',
@@ -683,12 +683,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE__GETPTY': 0,
  'HOSTRUNNER': '',
  'HOST_GNU_TYPE': 'x86_64-conda-linux-gnu',
- 'INCLDIRSTOMAKE': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/python3.12 '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/python3.12',
- 'INCLUDEDIR': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
- 'INCLUDEPY': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/python3.12',
+ 'INCLDIRSTOMAKE': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/python3.12 '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/python3.12',
+ 'INCLUDEDIR': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
+ 'INCLUDEPY': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/python3.12',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -700,54 +700,54 @@ build_time_vars = {'ABIFLAGS': '',
  'LDCXXSHARED': 'x86_64-conda-linux-gnu-c++ -pthread -shared -Wl,-O2 '
                 '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
                 '-Wl,--disable-new-dtags -Wl,--gc-sections '
-                '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                 '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                 '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+                '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
             '-Wl,--disable-new-dtags -Wl,--gc-sections '
-            '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-            '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-            '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+            '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+            '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+            '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
             '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
             '-Wl,--disable-new-dtags -Wl,--gc-sections '
-            '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-            '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-            '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+            '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+            '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+            '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'LDLIBRARY': 'libpython3.12.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'x86_64-conda-linux-gnu-gcc -pthread -shared -Wl,-O2 '
              '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
              '-Wl,--disable-new-dtags -Wl,--gc-sections '
-             '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-             '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-             '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+             '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+             '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+             '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
              '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
              '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-             '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-             '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-             '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+             '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+             '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+             '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'LDVERSION': '3.12',
  'LIBC': '',
- 'LIBDEST': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12',
- 'LIBDIR': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+ 'LIBDEST': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12',
+ 'LIBDIR': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'LIBEXPAT_A': 'Modules/expat/libexpat.a',
  'LIBEXPAT_CFLAGS': '-fno-strict-overflow -Wsign-compare -DNDEBUG -O2 -Wall '
                     '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                     '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                     '-pipe -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     ' '
                     ' '
                     '  '
                     '  -march=nocona -mtune=haswell '
                     '-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt '
                     '-O2 -ffunction-sections -pipe -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     ' '
                     ' '
                     '  '
@@ -761,11 +761,11 @@ build_time_vars = {'ABIFLAGS': '',
                     '-IObjects -IInclude -IPython -I. '
                     '-I/croot/python-split_1749128176179/work/Include -DNDEBUG '
                     '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                    '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                    '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                    '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                    '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     '-fPIC',
  'LIBEXPAT_HEADERS': '\\',
  'LIBEXPAT_OBJS': '\\',
@@ -775,14 +775,14 @@ build_time_vars = {'ABIFLAGS': '',
                    '-mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    ' '
                    ' '
                    '   '
                    ' -march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    ' '
                    ' '
                    '   '
@@ -796,11 +796,11 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/croot/python-split_1749128176179/work/Include -DNDEBUG '
                    '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                   '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                   '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                   '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                   '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    '-fPIC',
  'LIBHACL_HEADERS': '\\',
  'LIBHACL_SHA2_A': 'Modules/_hacl/libHacl_Hash_SHA2.a',
@@ -814,14 +814,14 @@ build_time_vars = {'ABIFLAGS': '',
                     '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                     '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                     '-pipe -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     ' '
                     ' '
                     '  '
                     '  -march=nocona -mtune=haswell '
                     '-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt '
                     '-O2 -ffunction-sections -pipe -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     ' '
                     ' '
                     '  '
@@ -835,18 +835,18 @@ build_time_vars = {'ABIFLAGS': '',
                     '-IObjects -IInclude -IPython -I. '
                     '-I/croot/python-split_1749128176179/work/Include -DNDEBUG '
                     '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                    '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                    '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                    '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                    '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                    '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                     '-fPIC',
  'LIBMPDEC_HEADERS': '\\',
  'LIBMPDEC_OBJS': '\\',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/pkgconfig',
- 'LIBPL': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12/config-3.12-x86_64-linux-gnu',
+ 'LIBPC': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/pkgconfig',
+ 'LIBPL': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12/config-3.12-x86_64-linux-gnu',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.12.a',
  'LIBRARY_DEPS': 'libpython3.12.a',
@@ -867,12 +867,12 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'linux',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12',
+ 'MACHDESTLIB': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
  'MAKESETUP': '/croot/python-split_1749128176179/work/Modules/makesetup',
- 'MANDIR': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/share/man',
+ 'MANDIR': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'array  _asyncio  _bisect  _contextvars  _csv  _heapq  '
                    '_json  _lsprof  _opcode  _pickle  _queue  _random  '
@@ -928,8 +928,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_AUDIOOP_LDFLAGS': '-lm',
  'MODULE_AUDIOOP_STATE': 'yes',
  'MODULE_BINASCII_CFLAGS': '-DUSE_ZLIB_CRC32 '
-                           '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
- 'MODULE_BINASCII_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                           '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
+ 'MODULE_BINASCII_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                             '-lz',
  'MODULE_BINASCII_STATE': 'yes',
  'MODULE_CMATH_DEPS': '/croot/python-split_1749128176179/work/Modules/_math.h',
@@ -976,8 +976,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_XXLIMITED_35_STATE': 'yes',
  'MODULE_XXLIMITED_STATE': 'yes',
  'MODULE_XXSUBTYPE_STATE': 'yes',
- 'MODULE_ZLIB_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
- 'MODULE_ZLIB_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+ 'MODULE_ZLIB_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
+ 'MODULE_ZLIB_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                         '-lz',
  'MODULE_ZLIB_STATE': 'yes',
  'MODULE__ABC_LDFLAGS': '',
@@ -1042,43 +1042,43 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__CRYPT_STATE': 'yes',
  'MODULE__CSV_STATE': 'yes',
  'MODULE__CTYPES_CFLAGS': '-fno-strict-overflow '
-                          '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
+                          '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
  'MODULE__CTYPES_DEPS': '/croot/python-split_1749128176179/work/Modules/_ctypes/ctypes.h',
- 'MODULE__CTYPES_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+ 'MODULE__CTYPES_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                            '-lffi -ldl',
  'MODULE__CTYPES_MALLOC_CLOSURE': '',
  'MODULE__CTYPES_STATE': 'yes',
  'MODULE__CTYPES_TEST_LDFLAGS': '-lm',
  'MODULE__CTYPES_TEST_STATE': 'yes',
  'MODULE__CURSES_CFLAGS': '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
-                          '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/ncursesw '
-                          '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
- 'MODULE__CURSES_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                          '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/ncursesw '
+                          '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
+ 'MODULE__CURSES_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                            '-Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags '
                            '-Wl,--gc-sections '
-                           '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                           '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                           '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                           '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                            '-lncursesw -ltinfow',
  'MODULE__CURSES_PANEL_CFLAGS': '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
                                 '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
-                                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/ncursesw '
-                                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/ncursesw '
-                                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/ncursesw '
+                                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/ncursesw '
+                                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                                 '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
-                                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/ncursesw '
-                                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
- 'MODULE__CURSES_PANEL_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/ncursesw '
+                                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
+ 'MODULE__CURSES_PANEL_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                                  '-Wl,-O2 -Wl,--sort-common '
                                  '-Wl,--disable-new-dtags -Wl,--gc-sections '
-                                 '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                                 '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                                 '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                                 '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                                  '-lpanelw '
-                                 '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                                 '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                                  '-Wl,-O2 -Wl,--sort-common '
                                  '-Wl,--disable-new-dtags -Wl,--gc-sections '
-                                 '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                                 '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                                 '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                                 '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                                  '-lncursesw -ltinfow',
  'MODULE__CURSES_PANEL_STATE': 'yes',
  'MODULE__CURSES_STATE': 'yes',
@@ -1096,9 +1096,9 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__ELEMENTTREE_STATE': 'yes',
  'MODULE__FUNCTOOLS_LDFLAGS': '',
  'MODULE__GDBM_STATE': 'missing',
- 'MODULE__HASHLIB_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
+ 'MODULE__HASHLIB_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
  'MODULE__HASHLIB_DEPS': '/croot/python-split_1749128176179/work/Modules/hashlib.h',
- 'MODULE__HASHLIB_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib   '
+ 'MODULE__HASHLIB_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib   '
                             '-lcrypto',
  'MODULE__HASHLIB_STATE': 'yes',
  'MODULE__HEAPQ_STATE': 'yes',
@@ -1109,8 +1109,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__JSON_STATE': 'yes',
  'MODULE__LOCALE_LDFLAGS': '',
  'MODULE__LSPROF_STATE': 'yes',
- 'MODULE__LZMA_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
- 'MODULE__LZMA_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+ 'MODULE__LZMA_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
+ 'MODULE__LZMA_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                          '-llzma',
  'MODULE__LZMA_STATE': 'yes',
  'MODULE__MD5_CFLAGS': '-I/croot/python-split_1749128176179/work/Modules/_hacl/include '
@@ -1157,7 +1157,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '/croot/python-split_1749128176179/work/Modules/getaddrinfo.c '
                         '/croot/python-split_1749128176179/work/Modules/getnameinfo.c',
  'MODULE__SOCKET_STATE': 'yes',
- 'MODULE__SQLITE3_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+ 'MODULE__SQLITE3_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                            '-I/croot/python-split_1749128176179/work/Modules/_sqlite',
  'MODULE__SQLITE3_DEPS': '/croot/python-split_1749128176179/work/Modules/_sqlite/connection.h '
                          '/croot/python-split_1749128176179/work/Modules/_sqlite/cursor.h '
@@ -1166,11 +1166,11 @@ build_time_vars = {'ABIFLAGS': '',
                          '/croot/python-split_1749128176179/work/Modules/_sqlite/prepare_protocol.h '
                          '/croot/python-split_1749128176179/work/Modules/_sqlite/row.h '
                          '/croot/python-split_1749128176179/work/Modules/_sqlite/util.h',
- 'MODULE__SQLITE3_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+ 'MODULE__SQLITE3_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                             '-lsqlite3',
  'MODULE__SQLITE3_STATE': 'yes',
  'MODULE__SRE_LDFLAGS': '',
- 'MODULE__SSL_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
+ 'MODULE__SSL_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
  'MODULE__SSL_DEPS': '/croot/python-split_1749128176179/work/Modules/_ssl.h '
                      '/croot/python-split_1749128176179/work/Modules/_ssl/cert.c '
                      '/croot/python-split_1749128176179/work/Modules/_ssl/debughelpers.c '
@@ -1179,7 +1179,7 @@ build_time_vars = {'ABIFLAGS': '',
                      '/croot/python-split_1749128176179/work/Modules/_ssl_data_111.h '
                      '/croot/python-split_1749128176179/work/Modules/_ssl_data_300.h '
                      '/croot/python-split_1749128176179/work/Modules/socketmodule.h',
- 'MODULE__SSL_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib  '
+ 'MODULE__SSL_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib  '
                         '-lssl -lcrypto',
  'MODULE__SSL_STATE': 'yes',
  'MODULE__STATISTICS_LDFLAGS': '-lm',
@@ -1197,16 +1197,16 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__TESTINTERNALCAPI_STATE': 'yes',
  'MODULE__TESTMULTIPHASE_STATE': 'yes',
  'MODULE__THREAD_LDFLAGS': '',
- 'MODULE__TKINTER_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+ 'MODULE__TKINTER_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                            '-Wno-strict-prototypes -DWITH_APPINIT=1',
- 'MODULE__TKINTER_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+ 'MODULE__TKINTER_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                             '-ltk8.6 -ltkstub8.6 -ltcl8.6 -ltclstub8.6',
  'MODULE__TKINTER_STATE': 'yes',
  'MODULE__TRACEMALLOC_LDFLAGS': '',
  'MODULE__TYPING_LDFLAGS': '',
  'MODULE__TYPING_STATE': 'yes',
- 'MODULE__UUID_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include/uuid',
- 'MODULE__UUID_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+ 'MODULE__UUID_CFLAGS': '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include/uuid',
+ 'MODULE__UUID_LDFLAGS': '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                          '-luuid',
  'MODULE__UUID_STATE': 'yes',
  'MODULE__WEAKREF_LDFLAGS': '',
@@ -1258,7 +1258,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Wall -march=nocona -mtune=haswell '
                              '-ftree-vectorize -fPIC -fstack-protector-strong '
                              '-fno-plt -O2 -ffunction-sections -pipe -isystem '
-                             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                              ' '
                              ' '
                              '  '
@@ -1266,7 +1266,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-mtune=haswell -ftree-vectorize -fPIC '
                              '-fstack-protector-strong -fno-plt -O2 '
                              '-ffunction-sections -pipe -isystem '
-                             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                              ' '
                              ' '
                              '  '
@@ -1284,24 +1284,24 @@ build_time_vars = {'ABIFLAGS': '',
                              '-IObjects -IInclude -IPython -I. '
                              '-I/croot/python-split_1749128176179/work/Include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                             '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                             '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                             '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                             '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                             '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-fno-strict-overflow -Wsign-compare -DNDEBUG -O2 -Wall '
               '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
               '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
               '-isystem '
-              '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+              '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
               ' '
               ' '
               '   '
               ' -march=nocona -mtune=haswell -ftree-vectorize -fPIC '
               '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
               '-isystem '
-              '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+              '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
               ' '
               ' '
               '   '
@@ -1318,14 +1318,14 @@ build_time_vars = {'ABIFLAGS': '',
                    '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    ' '
                    ' '
                    '   '
                    ' -march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    ' '
                    ' '
                    '   '
@@ -1339,56 +1339,56 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/croot/python-split_1749128176179/work/Include -DNDEBUG '
                    '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                   '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                   '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                   '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                   '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                   '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                     '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                    '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                    '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                    '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                    '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                    '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                    '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                     '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                     '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                    '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                    '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                    '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                    '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                    '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                    '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                     '-fno-semantic-interposition   '
                     '  -g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/croot/python-split_1749128176179/work/Include -DNDEBUG '
                 '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                 '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
+                '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
  'PY_ENABLE_SHARED': 0,
  'PY_HAVE_PERF_TRAMPOLINE': 1,
  'PY_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-               '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-               '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-               '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+               '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+               '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+               '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-               '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-               '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-               '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+               '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+               '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+               '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'PY_LDFLAGS_NODIST': '-fno-semantic-interposition   '
                       '  -g',
  'PY_LDFLAGS_NOLTO': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                      '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                     '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                     '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                     '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                     '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                     '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                     '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                      '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                      '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                     '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                     '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
-                     '-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib '
+                     '-Wl,-rpath,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                     '-Wl,-rpath-link,/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
+                     '-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib '
                      '-fno-lto',
  'PY_SQLITE_ENABLE_LOAD_EXTENSION': 1,
  'PY_SQLITE_HAVE_SERIALIZE': 1,
@@ -1398,7 +1398,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '-Wall -march=nocona -mtune=haswell -ftree-vectorize '
                         '-fPIC -fstack-protector-strong -fno-plt -O2 '
                         '-ffunction-sections -pipe -isystem '
-                        '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                        '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                         ' '
                         ' '
                         '  '
@@ -1406,7 +1406,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '-mtune=haswell -ftree-vectorize -fPIC '
                         '-fstack-protector-strong -fno-plt -O2 '
                         '-ffunction-sections -pipe -isystem '
-                        '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                        '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                         ' '
                         ' '
                         '  '
@@ -1422,11 +1422,11 @@ build_time_vars = {'ABIFLAGS': '',
                         '-IObjects -IInclude -IPython -I. '
                         '-I/croot/python-split_1749128176179/work/Include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                        '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
+                        '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                        '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include '
-                        '-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include',
+                        '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include '
+                        '-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include',
  'PY_SUPPORT_TIER': 1,
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
@@ -1438,7 +1438,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib',
+ 'SCRIPTDIR': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib',
  'SCRIPT_2TO3': 'build/scripts-3.12/2to3-3.12',
  'SCRIPT_IDLE': 'build/scripts-3.12/idle3.12',
  'SCRIPT_PYDOC': 'build/scripts-3.12/pydoc3.12',
@@ -1571,15 +1571,15 @@ build_time_vars = {'ABIFLAGS': '',
  'THREAD_STACK_SIZE': 0,
  'TIMEMODULE_LIB': 0,
  'TM_IN_SYS_TIME': 0,
- 'TZPATH': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/share/zoneinfo:/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/share/tzinfo',
+ 'TZPATH': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/share/zoneinfo:/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': '/croot/python-split_1749128176179/work/Tools/build/update_file.py',
  'USE_COMPUTED_GOTOS': 1,
  'VERSION': '3.12',
  'VPATH': '/croot/python-split_1749128176179/work',
- 'WASM_ASSETS_DIR': './project/ftdc_volumetric/hup6_xa60/envs/dcm2bids',
- 'WASM_STDLIB': './project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/python3.12/os.py',
+ 'WASM_ASSETS_DIR': './project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids',
+ 'WASM_STDLIB': './project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/python3.12/os.py',
  'WHEEL_PKG_DIR': '',
  'WINDOW_HAS_FLAGS': 1,
  'WITH_DECIMAL_CONTEXTVAR': 1,
@@ -1596,7 +1596,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/croot/python-split_1749128176179/work/build-static',
  'abs_srcdir': '/croot/python-split_1749128176179/work',
- 'datarootdir': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/share',
- 'exec_prefix': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids',
- 'prefix': '/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids',
+ 'datarootdir': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/share',
+ 'exec_prefix': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids',
+ 'prefix': '/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids',
  'srcdir': '/croot/python-split_1749128176179/work'}

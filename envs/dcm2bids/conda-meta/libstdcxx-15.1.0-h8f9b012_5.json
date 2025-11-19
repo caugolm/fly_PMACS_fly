@@ -1,14 +1,13 @@
 {
   "build": "h8f9b012_5",
   "build_number": 5,
-  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "channel": "https://conda.anaconda.org/conda-forge",
   "constrains": [],
   "depends": [
     "__glibc >=2.17,<3.0.a0",
     "libgcc 15.1.0 h767d61c_5"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/libstdcxx-15.1.0-h8f9b012_5",
-  "features": "",
   "files": [
     "lib/libstdc++.so",
     "lib/libstdc++.so.6",
@@ -17,7 +16,6 @@
   ],
   "fn": "libstdcxx-15.1.0-h8f9b012_5.conda",
   "license": "GPL-3.0-only WITH GCC-exception-3.1",
-  "license_family": "GPL",
   "link": {
     "source": "/home/olm/.conda/pkgs/libstdcxx-15.1.0-h8f9b012_5",
     "type": 1
@@ -56,12 +54,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "libstdcxx==15.1.0=h8f9b012_5",
   "sha256": "0f5f61cab229b6043541c13538d75ce11bd96fb2db76f94ecf81997b1fde6408",
   "size": 3896432,
   "subdir": "linux-64",
-  "timestamp": 1757042571458,
-  "track_features": "",
+  "timestamp": 1757042571000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-15.1.0-h8f9b012_5.conda",
   "version": "15.1.0"
 }

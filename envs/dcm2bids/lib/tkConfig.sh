@@ -35,11 +35,11 @@ TK_LIBS='-lX11   -lpthread -ldl -lz  -lpthread -lm'
 
 # Top-level directory in which Tk's platform-independent files are
 # installed.
-TK_PREFIX='/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids'
+TK_PREFIX='/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids'
 
 # Top-level directory in which Tk's platform-specific files (e.g.
 # executables) are installed.
-TK_EXEC_PREFIX='/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids'
+TK_EXEC_PREFIX='/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids'
 
 # -I switch(es) to use to make all of the X11 include files accessible:
 TK_XINCLUDES=''
@@ -56,11 +56,11 @@ TK_BUILD_LIB_SPEC='-L/croot/tk_1755243777296/work/tk8.6.15/unix -ltk8.6'
 
 # String to pass to linker to pick up the Tk library from its
 # installed directory.
-TK_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib -ltk8.6'
+TK_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib -ltk8.6'
 
 # String to pass to the compiler so that an extension can
 # find installed Tk headers.
-TK_INCLUDE_SPEC='-I/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/include'
+TK_INCLUDE_SPEC='-I/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/include'
 
 # Location of the top-level source directory from which Tk was built.
 # This is the directory that contains a README file as well as
@@ -87,10 +87,10 @@ TK_BUILD_STUB_LIB_SPEC='-L/croot/tk_1755243777296/work/tk8.6.15/unix -ltkstub8.6
 
 # String to pass to linker to pick up the Tk stub library from its
 # installed directory.
-TK_STUB_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib -ltkstub8.6'
+TK_STUB_LIB_SPEC='-L/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib -ltkstub8.6'
 
 # Path to the Tk stub library in the build directory.
 TK_BUILD_STUB_LIB_PATH='/croot/tk_1755243777296/work/tk8.6.15/unix/libtkstub8.6.a'
 
 # Path to the Tk stub library in the install directory.
-TK_STUB_LIB_PATH='/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/lib/libtkstub8.6.a'
+TK_STUB_LIB_PATH='/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/lib/libtkstub8.6.a'

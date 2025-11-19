@@ -1,13 +1,12 @@
 {
   "build": "py312h06a4308_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/setuptools-78.1.1-py312h06a4308_0",
-  "features": "",
   "files": [
     "lib/python3.12/site-packages/_distutils_hack/__init__.py",
     "lib/python3.12/site-packages/_distutils_hack/__pycache__/__init__.cpython-312.pyc",
@@ -882,9 +881,7 @@
     "lib/python3.12/site-packages/setuptools/windows_support.py"
   ],
   "fn": "setuptools-78.1.1-py312h06a4308_0.conda",
-  "legacy_bz2_md5": "02d073146965696dab593ebc118326ae",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/setuptools-78.1.1-py312h06a4308_0",
     "type": 1
@@ -6994,12 +6991,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "setuptools==78.1.1=py312h06a4308_0",
   "sha256": "8ed24f3f95f6c8bc7b54bd74b65d4e01542d4946b8e03704e91bd8443540b2ec",
   "size": 2323120,
   "subdir": "linux-64",
-  "timestamp": 1746024814506,
-  "track_features": "",
+  "timestamp": 1746024814000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/setuptools-78.1.1-py312h06a4308_0.conda",
   "version": "78.1.1"
 }

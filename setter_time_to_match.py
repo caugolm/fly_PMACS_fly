@@ -14,7 +14,7 @@ if args.dicom_dir:
   args.input = list()
 
   file_list = [f for f in os.listdir(args.dicom_dir) if os.path.isfile(os.path.join(args.dicom_dir,f)) and ".zip" not in f ]
-  for f in file_list:
+  for f in sorted(file_list):
     f = os.path.join(args.dicom_dir, f)
     # only add valid dicom files from input directory
     try:
@@ -27,9 +27,9 @@ if args.dicom_dir:
 
 
 def whatAreWe(filepath):
-  one_dicom = dicom.read_file(filepath)
+  one_dicom = dicom.dcmread(filepath)
   if "setter" in one_dicom.SeriesDescription :
-    time_int = int(float(one_dicom.SeriesTime))
+    time_int = int(float(one_dicom.InstanceCreationTime))
     hours = time_int // 10000
     minutes = (time_int % 10000) // 100
     seconds = time_int % 100

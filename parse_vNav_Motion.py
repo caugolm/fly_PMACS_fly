@@ -10,7 +10,7 @@ import glob
 import argparse
 import json
 import re
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 logger = logging.getLogger()
 logging.basicConfig(level=logging.INFO)
@@ -19,13 +19,13 @@ def normalize(x):
   return x / np.sqrt(np.dot(x,x))
 
 def readRotAndTransFromDicom(paths):
-  failure = re.compile('^.*\? F:')
-  pattern = re.compile('.*R:\s+(.*?)\s+(.*?)\s+(.*?)\s+(.*?)\s+T:\s+(.*?)\s+(.*?)\s+(.*?)\s+F:.*')
+  failure = re.compile(r'^.*\? F:')
+  pattern = re.compile(r'.*R:\s+(.*?)\s+(.*?)\s+(.*?)\s+(.*?)\s+T:\s+(.*?)\s+(.*?)\s+(.*?)\s+F:.*')
 
   files = itertools.chain.from_iterable([glob.glob(path) for path in paths])
 
   # Sort DICOMs by AcquisitionNumber (important!)
-  ds = sorted([dicom.read_file(x) for x in files], key=lambda dcm: dcm.AcquisitionNumber)
+  ds = sorted([dicom.dcmread(x) for x in files], key=lambda dcm: dcm.AcquisitionNumber)
 
   failed = None
 
@@ -65,7 +65,7 @@ def readRotAndTransFromJson(js):
   vNav failures do not appear to be encoded consistently. The following regular
   expression was crafted based on a small number of examples.
   '''
-  failure = '^.*\?_F:'
+  failure = '^.*\\?_F:'
   pattern = 'R:_(.*?)_(.*?)_(.*?)_(.*?)_T:_(.*?)_(.*?)_(.*?)_F:.'
   failed = None
   # parse ImageComments and return quaternion values

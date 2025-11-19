@@ -12,7 +12,7 @@
 # Original version by Troy Korjuslommi
 #
 # Use en_US.UTF-8/Compose as the base compose sequence definition set
-include "/project/ftdc_volumetric/hup6_xa60/envs/dcm2bids/share/X11/locale/en_US.UTF-8/Compose"
+include "/project/ftdc_volumetric/hup6_xa60/scripts/rhel9_fly_PMACS_fly/envs/dcm2bids/share/X11/locale/en_US.UTF-8/Compose"
 # Define all the sequences of the standard overriding any sequence
 # from en_US.UTF-8/Compose if such a sequence was provided already
 # Sequences from Annex 3

@@ -1,13 +1,12 @@
 {
   "build": "h5eee18b_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/appl/miniconda3-22.11/pkgs/libuuid-1.41.5-h5eee18b_0",
-  "features": "",
+  "extracted_package_dir": "/appl/miniconda3-25/pkgs/libuuid-1.41.5-h5eee18b_0",
   "files": [
     "include/uuid/uuid.h",
     "lib/libuuid.a",
@@ -17,16 +16,14 @@
     "lib/pkgconfig/uuid.pc"
   ],
   "fn": "libuuid-1.41.5-h5eee18b_0.conda",
-  "legacy_bz2_md5": "292768ec77416ae257cfdd44ea2071c8",
   "license": "BSD-3-Clause",
-  "license_family": "BSD",
   "link": {
-    "source": "/appl/miniconda3-22.11/pkgs/libuuid-1.41.5-h5eee18b_0",
+    "source": "/appl/miniconda3-25/pkgs/libuuid-1.41.5-h5eee18b_0",
     "type": 1
   },
   "md5": "4a6a2354414c9080327274aa514e5299",
   "name": "libuuid",
-  "package_tarball_full_path": "/appl/miniconda3-22.11/pkgs/libuuid-1.41.5-h5eee18b_0.conda",
+  "package_tarball_full_path": "/appl/miniconda3-25/pkgs/libuuid-1.41.5-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -68,18 +65,17 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libuuid_1668082679328/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "ad771b4cb15ca6fcc526199ebbc1c4ff31e1cf96f01fb4710b14462327ebbef1",
-        "sha256_in_prefix": "365334c979c4f90767344078a8756e548505e0bc2e2091cc3f696a72903a2bf6",
+        "sha256_in_prefix": "841d711e04377cc1bddc82d287e0171c748f7c4f105abd6fe4b3bf9baad8831c",
         "size_in_bytes": 1208
       }
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "libuuid==1.41.5=h5eee18b_0",
   "sha256": "2a401aafabac51b7736cfe12d2ab205d29052640ea8183253c9d0a8e7ed0d49a",
   "size": 28110,
   "subdir": "linux-64",
-  "timestamp": 1668082729834,
-  "track_features": "",
+  "timestamp": 1668082729000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/libuuid-1.41.5-h5eee18b_0.conda",
   "version": "1.41.5"
 }

@@ -1,17 +1,15 @@
 {
   "build": "h4852527_5",
   "build_number": 5,
-  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "channel": "https://conda.anaconda.org/conda-forge",
   "constrains": [],
   "depends": [
     "libstdcxx 15.1.0 h8f9b012_5"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/libstdcxx-ng-15.1.0-h4852527_5",
-  "features": "",
   "files": [],
   "fn": "libstdcxx-ng-15.1.0-h4852527_5.conda",
   "license": "GPL-3.0-only WITH GCC-exception-3.1",
-  "license_family": "GPL",
   "link": {
     "source": "/home/olm/.conda/pkgs/libstdcxx-ng-15.1.0-h4852527_5",
     "type": 1
@@ -23,12 +21,11 @@
     "paths": [],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "libstdcxx-ng==15.1.0=h4852527_5",
   "sha256": "7b8cabbf0ab4fe3581ca28fe8ca319f964078578a51dd2ca3f703c1d21ba23ff",
   "size": 29233,
   "subdir": "linux-64",
-  "timestamp": 1757042603319,
-  "track_features": "",
+  "timestamp": 1757042603000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-15.1.0-h4852527_5.conda",
   "version": "15.1.0"
 }

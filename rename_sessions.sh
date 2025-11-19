@@ -10,10 +10,17 @@ fi
 
 echo "executing rename_sessions.py"
 module unload python
-module load python/3.11
 
 config=$1
 
 source $config
+
+
+module unload miniconda
+module load miniconda/3-25
+eval "$(conda shell.bash hook)"
+
+conda activate $dcm2bids_conda_path
+
 
 python ./rename_sessions.py $flywheel_group $flywheel_project $lists_path

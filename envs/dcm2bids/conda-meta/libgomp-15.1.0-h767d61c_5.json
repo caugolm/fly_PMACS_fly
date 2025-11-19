@@ -1,13 +1,12 @@
 {
   "build": "h767d61c_5",
   "build_number": 5,
-  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "channel": "https://conda.anaconda.org/conda-forge",
   "constrains": [],
   "depends": [
     "__glibc >=2.17,<3.0.a0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/libgomp-15.1.0-h767d61c_5",
-  "features": "",
   "files": [
     "lib/libgomp.so",
     "lib/libgomp.so.1.0.0",
@@ -15,7 +14,6 @@
   ],
   "fn": "libgomp-15.1.0-h767d61c_5.conda",
   "license": "GPL-3.0-only WITH GCC-exception-3.1",
-  "license_family": "GPL",
   "link": {
     "source": "/home/olm/.conda/pkgs/libgomp-15.1.0-h767d61c_5",
     "type": 1
@@ -48,12 +46,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "libgomp==15.1.0=h767d61c_5",
   "sha256": "125051d51a8c04694d0830f6343af78b556dd88cc249dfec5a97703ebfb1832d",
   "size": 447215,
   "subdir": "linux-64",
-  "timestamp": 1757042483384,
-  "track_features": "",
+  "timestamp": 1757042483000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/libgomp-15.1.0-h767d61c_5.conda",
   "version": "15.1.0"
 }

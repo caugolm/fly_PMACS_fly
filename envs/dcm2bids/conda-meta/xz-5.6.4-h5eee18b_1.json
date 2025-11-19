@@ -1,13 +1,12 @@
 {
   "build": "h5eee18b_1",
   "build_number": 1,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/appl/miniconda3-22.11/pkgs/xz-5.6.4-h5eee18b_1",
-  "features": "",
+  "extracted_package_dir": "/home/olm/.conda/pkgs/xz-5.6.4-h5eee18b_1",
   "files": [
     "bin/lzcat",
     "bin/lzcmp",
@@ -235,16 +234,14 @@
     "share/man/uk/man1/xzmore.1"
   ],
   "fn": "xz-5.6.4-h5eee18b_1.conda",
-  "legacy_bz2_md5": "c924da317917a16d9d8551701b53ef7b",
   "license": "LGPL-2.1-or-later and GPL-2.0-or-later and 0BSD",
-  "license_family": "GPL2",
   "link": {
-    "source": "/appl/miniconda3-22.11/pkgs/xz-5.6.4-h5eee18b_1",
+    "source": "/home/olm/.conda/pkgs/xz-5.6.4-h5eee18b_1",
     "type": 1
   },
   "md5": "3581505fa450962d631bd82b8616350e",
   "name": "xz",
-  "package_tarball_full_path": "/appl/miniconda3-22.11/pkgs/xz-5.6.4-h5eee18b_1.conda",
+  "package_tarball_full_path": "/home/olm/.conda/pkgs/xz-5.6.4-h5eee18b_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -308,7 +305,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xz_1739468269109/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "3154bd45c6c8e99745296931e4b9763c0e6a71eba7a2bec93dc3ccc67fd2a1b8",
-        "sha256_in_prefix": "2b8aa086dc072fcc0a7be9b6d52a0b641337886b4b8a66d81bb850103a855a54",
+        "sha256_in_prefix": "0cc8eeb90e733795cd08bc84f97a157ad973c15dc3df53e27fe7661edd2f9b45",
         "size_in_bytes": 16968
       },
       {
@@ -335,7 +332,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xz_1739468269109/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "f7aedbd20a47602bbb19f8262f46f922dca4640e6b67241dcb3bdd63a11615ab",
-        "sha256_in_prefix": "b1c7e53c9c9fdde2a648d6ee6d798e2c35c81b89e9860410f7966b09442112b7",
+        "sha256_in_prefix": "91271a31e4a0960e6979c6e5982be8fad3115293a54a932c5e9299f40bb3467a",
         "size_in_bytes": 108336
       },
       {
@@ -555,7 +552,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xz_1739468269109/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "ac636313df79badabb87b10042499cd8cba9966bc87dd5761fcb5311af74e86c",
-        "sha256_in_prefix": "71b8647ffa31990e0cbc8e1c03efc483a4bdd7210fd31df106928dab18cac484",
+        "sha256_in_prefix": "adeada3c74d4e470cd44661d1f3c0940ca93eb1b5b8b0539371b4876b5cf5300",
         "size_in_bytes": 616
       },
       {
@@ -1713,12 +1710,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "xz==5.6.4=h5eee18b_1",
   "sha256": "a9445543c2b1a1a96c052ac4535cfceb413cdbb0454a0710f9a4c98e7d5d0b1c",
   "size": 580311,
   "subdir": "linux-64",
-  "timestamp": 1739468299256,
-  "track_features": "",
+  "timestamp": 1739468299000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/xz-5.6.4-h5eee18b_1.conda",
   "version": "5.6.4"
 }

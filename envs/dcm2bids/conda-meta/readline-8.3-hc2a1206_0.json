@@ -1,15 +1,14 @@
 {
   "build": "hc2a1206_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
-    "__glibc >=2.17,<3.0.a0",
     "libgcc-ng >=11.2.0",
+    "__glibc >=2.17,<3.0.a0",
     "ncurses >=6.5,<7.0a0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/readline-8.3-hc2a1206_0",
-  "features": "",
   "files": [
     "include/readline/chardefs.h",
     "include/readline/history.h",
@@ -42,9 +41,7 @@
     "share/man/man3/readline.3"
   ],
   "fn": "readline-8.3-hc2a1206_0.conda",
-  "legacy_bz2_md5": "7ae5a77a62d93f38e777a71b56c396cf",
   "license": "GPL-3.0-only",
-  "license_family": "GPL",
   "link": {
     "source": "/home/olm/.conda/pkgs/readline-8.3-hc2a1206_0",
     "type": 1
@@ -168,7 +165,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/readline_1754485605901/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "96ae678a723fec65a477316b3458775627693596c0548115e7b8594fc3c8a12a",
-        "sha256_in_prefix": "cbb1f7c5d5047ba2ae0ce0266841a72ea87da3dd30c8bafbd2079c1616494b0d",
+        "sha256_in_prefix": "f9aead585ab4dff9e57db6f24e7037bd9be2868330b15396fc6720045e13924d",
         "size_in_bytes": 548
       },
       {
@@ -177,7 +174,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/readline_1754485605901/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "27ae4e26e244af80d3e3d63f62c93667921577acaef82d80ddca6289260939da",
-        "sha256_in_prefix": "b426c10fe6a1906fdbd90952fe2a7966efb04faef557bc74b486cc1323e9ce7b",
+        "sha256_in_prefix": "4c64e0df6498f5cd9c80e4b347a4b9e302b165186347ec2dcee9596a4498ae66",
         "size_in_bytes": 562
       },
       {
@@ -260,12 +257,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "readline==8.3=hc2a1206_0",
   "sha256": "0a438fa74f2776bde137017d6c18214b5da65b557f6a59f877fa4e091582f789",
   "size": 481826,
   "subdir": "linux-64",
-  "timestamp": 1754485653893,
-  "track_features": "",
+  "timestamp": 1754485653000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/readline-8.3-hc2a1206_0.conda",
   "version": "8.3"
 }

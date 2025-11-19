@@ -1,13 +1,12 @@
 {
   "build": "h9b100fa_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
   "extracted_package_dir": "/home/olm/.conda/pkgs/xorg-libxau-1.0.12-h9b100fa_0",
-  "features": "",
   "files": [
     "include/X11/Xauth.h",
     "lib/libXau.so",
@@ -16,9 +15,7 @@
     "lib/pkgconfig/xau.pc"
   ],
   "fn": "xorg-libxau-1.0.12-h9b100fa_0.conda",
-  "legacy_bz2_md5": "962cde7b3951cf7244e2ed2d059900a6",
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
     "source": "/home/olm/.conda/pkgs/xorg-libxau-1.0.12-h9b100fa_0",
     "type": 1
@@ -60,18 +57,17 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xorg-libxau_1745958680217/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "a1d4b755e9a4fe7631bdfb421a1239dbf8d4d485fa67ae2fe181660fbfa8ec73",
-        "sha256_in_prefix": "2792ae0fd122492f54396ed6e4055f5bfe89f2a698b3e2d854e0bc430e1ce46e",
+        "sha256_in_prefix": "0054e6604330a2b558289ebe6c80fc20f09f25c97410386eabe334842e2dac10",
         "size_in_bytes": 485
       }
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "xorg-libxau==1.0.12=h9b100fa_0",
   "sha256": "68acf87da69a0237d5083798a9cc9b89d2887a84a5323aa740006b53cd5159ef",
   "size": 13582,
   "subdir": "linux-64",
-  "timestamp": 1745958707989,
-  "track_features": "",
+  "timestamp": 1745958707000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/xorg-libxau-1.0.12-h9b100fa_0.conda",
   "version": "1.0.12"
 }

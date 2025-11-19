@@ -23,6 +23,7 @@ image_time = datetime.datetime.combine(datetime.date.today(),image_time)
 def envelope_time_match(setter_time, image_time, time_window): 
     setter_time_plus_window = setter_time + datetime.timedelta(0, time_window) 
     setter_time_minus_window = setter_time - datetime.timedelta(0, time_window) 
+
     if image_time <= setter_time_plus_window and image_time >= setter_time_minus_window:
         return True
     else:

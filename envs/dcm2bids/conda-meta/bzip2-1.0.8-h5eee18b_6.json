@@ -1,13 +1,12 @@
 {
   "build": "h5eee18b_6",
   "build_number": 6,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/appl/miniconda3-22.11/pkgs/bzip2-1.0.8-h5eee18b_6",
-  "features": "",
+  "extracted_package_dir": "/appl/miniconda3-25/pkgs/bzip2-1.0.8-h5eee18b_6",
   "files": [
     "bin/bunzip2",
     "bin/bzcat",
@@ -35,16 +34,14 @@
     "man/man1/bzmore.1"
   ],
   "fn": "bzip2-1.0.8-h5eee18b_6.conda",
-  "legacy_bz2_md5": "f5058c8d5b2994b7334f18e022105a14",
   "license": "bzip2-1.0.8",
-  "license_family": "BSD",
   "link": {
-    "source": "/appl/miniconda3-22.11/pkgs/bzip2-1.0.8-h5eee18b_6",
+    "source": "/appl/miniconda3-25/pkgs/bzip2-1.0.8-h5eee18b_6",
     "type": 1
   },
   "md5": "f21a3ff51c1b271977f53ce956a69297",
   "name": "bzip2",
-  "package_tarball_full_path": "/appl/miniconda3-22.11/pkgs/bzip2-1.0.8-h5eee18b_6.conda",
+  "package_tarball_full_path": "/appl/miniconda3-25/pkgs/bzip2-1.0.8-h5eee18b_6.conda",
   "paths_data": {
     "paths": [
       {
@@ -212,12 +209,11 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "bzip2==1.0.8=h5eee18b_6",
   "sha256": "235f266d5f9c3c61748bb1af0eff21bc7ed2a2a356b97ff28d9c1135039b08b0",
   "size": 268384,
   "subdir": "linux-64",
-  "timestamp": 1714510571510,
-  "track_features": "",
+  "timestamp": 1714510571000,
   "url": "https://repo.anaconda.com/pkgs/main/linux-64/bzip2-1.0.8-h5eee18b_6.conda",
   "version": "1.0.8"
 }
