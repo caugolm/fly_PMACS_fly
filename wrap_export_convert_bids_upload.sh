@@ -39,6 +39,6 @@ for i in `cat $subjlist` ; do
 	cmd="${scripts_dir}/export_convert_bids_upload.sh ${subj} ${sess} ${config_file} ${exclude_quarantine}"
 	echo "Running ${cmd}"
 	echo "Log will be saved to ${log_path}/sub-${subj}_ses-${sess}_log.txt"
-	$cmd | tee ${log_path}/sub-${subj}_ses-${sess}_log.txt
+	$cmd 2>&1 | tee ${log_path}/sub-${subj}_ses-${sess}_log.txt
 done    
 	
